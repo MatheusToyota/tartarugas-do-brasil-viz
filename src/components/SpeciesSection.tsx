@@ -1,11 +1,7 @@
 import TurtleCard from "./TurtleCard";
 import { useToast } from "@/hooks/use-toast";
 
-// Import images
-import tartarugaVerde from "@/assets/tartaruga-verde.jpg";
-import tartarugaCabecuda from "@/assets/tartaruga-cabecuda.jpg";
-import tartarugaDePente from "@/assets/tartaruga-de-pente.jpg";
-import jabutiPiranga from "@/assets/jabuti-piranga.jpg";
+// Images will be added later
 
 const SpeciesSection = () => {
   const { toast } = useToast();
@@ -17,8 +13,7 @@ const SpeciesSection = () => {
       scientificName: "Chelonia mydas",
       description: "A maior das tartarugas marinhas encontradas no Brasil, conhecida por sua dieta herbívora quando adulta. Seus filhotes são onívoros, mas migram para uma dieta baseada em algas marinhas e gramíneas.",
       habitat: "Águas costeiras tropicais e subtropicais",
-      status: "Vulnerável",
-      imageUrl: tartarugaVerde
+      status: "Vulnerável"
     },
     {
       id: 2,
@@ -26,8 +21,7 @@ const SpeciesSection = () => {
       scientificName: "Caretta caretta",
       description: "Reconhecida por sua grande cabeça e mandíbulas poderosas, adaptadas para quebrar crustáceos e moluscos. É uma das espécies mais comuns nas costas brasileiras.",
       habitat: "Águas oceânicas e costeiras",
-      status: "Vulnerável",
-      imageUrl: tartarugaCabecuda
+      status: "Vulnerável"
     },
     {
       id: 3,
@@ -35,8 +29,7 @@ const SpeciesSection = () => {
       scientificName: "Eretmochelys imbricata",
       description: "Famosa por seu casco belamente padronizado que foi historicamente usado para fazer pentes e ornamentos. Possui bico afiado ideal para se alimentar de esponjas marinhas.",
       habitat: "Recifes de coral e águas tropicais",
-      status: "Criticamente ameaçada",
-      imageUrl: tartarugaDePente
+      status: "Criticamente ameaçada"
     },
     {
       id: 4,
@@ -60,8 +53,7 @@ const SpeciesSection = () => {
       scientificName: "Chelonoidis carbonarius",
       description: "Tartaruga terrestre com marcas vermelhas distintivas nas patas e cabeça. É uma das duas espécies de jabuti encontradas no Brasil, sendo maior que o jabuti-tinga.",
       habitat: "Florestas tropicais e cerrado",
-      status: "Pouco preocupante",
-      imageUrl: jabutiPiranga
+      status: "Pouco preocupante"
     },
     {
       id: 7,
@@ -101,7 +93,6 @@ const SpeciesSection = () => {
                 description={turtle.description}
                 habitat={turtle.habitat}
                 status={turtle.status}
-                imageUrl={turtle.imageUrl}
                 onLearnMore={() => handleLearnMore(turtle.name)}
               />
             </div>
