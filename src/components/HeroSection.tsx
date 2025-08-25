@@ -8,13 +8,13 @@ const HeroSection = () => {
           <h1 className="text-5xl md:text-6xl font-bold text-foreground mb-6 leading-tight">
             Enciclopédia das{" "}
             <span className="bg-gradient-ocean bg-clip-text text-transparent">
-              Tartarugas do Brasil
+              Tartarugas Marinhas do Brasil
             </span>
           </h1>
           
           <p className="text-xl text-muted-foreground mb-8 leading-relaxed max-w-2xl mx-auto">
-            Descubra a riqueza e diversidade das espécies de tartarugas brasileiras. 
-            Uma jornada fascinante pela vida marinha e terrestre do nosso país.
+            Descubra a riqueza e diversidade das espécies de tartarugas marinhas brasileiras. 
+            Uma jornada fascinante pela vida marinha do nosso país.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-slide-up">
@@ -39,16 +39,16 @@ const HeroSection = () => {
         {/* Stats */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16 animate-scale-in">
           <div className="text-center">
-            <div className="text-4xl font-bold text-primary mb-2">7+</div>
+            <div className="text-4xl font-bold text-primary mb-2">5</div>
             <div className="text-muted-foreground">Espécies Catalogadas</div>
           </div>
           <div className="text-center">
-            <div className="text-4xl font-bold text-secondary mb-2">5</div>
+            <div className="text-4xl font-bold text-secondary mb-2">100%</div>
             <div className="text-muted-foreground">Espécies Marinhas</div>
           </div>
           <div className="text-center">
-            <div className="text-4xl font-bold text-accent mb-2">2</div>
-            <div className="text-muted-foreground">Espécies Terrestres</div>
+            <div className="text-4xl font-bold text-accent mb-2">3</div>
+            <div className="text-muted-foreground">Ameaçadas</div>
           </div>
         </div>
       </div>

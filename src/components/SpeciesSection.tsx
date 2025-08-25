@@ -46,22 +46,6 @@ const SpeciesSection = () => {
       description: "A maior tartaruga marinha do mundo, distinguida por não possuir casco rígido, mas sim uma carapaça coriácea. Especialista em alimentar-se de águas-vivas.",
       habitat: "Oceanos profundos e águas costeiras",
       status: "Vulnerável"
-    },
-    {
-      id: 6,
-      name: "Jabuti-piranga",
-      scientificName: "Chelonoidis carbonarius",
-      description: "Tartaruga terrestre com marcas vermelhas distintivas nas patas e cabeça. É uma das duas espécies de jabuti encontradas no Brasil, sendo maior que o jabuti-tinga.",
-      habitat: "Florestas tropicais e cerrado",
-      status: "Pouco preocupante"
-    },
-    {
-      id: 7,
-      name: "Jabuti-tinga",
-      scientificName: "Chelonoidis denticulatus",
-      description: "Menor que o jabuti-piranga, com marcas amareladas características. Habita principalmente a região amazônica e é importante dispersor de sementes.",
-      habitat: "Floresta amazônica",
-      status: "Pouco preocupante"
     }
   ];
 
@@ -77,10 +61,10 @@ const SpeciesSection = () => {
       <div className="container mx-auto">
         <div className="text-center mb-12 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-            Espécies de Tartarugas
+            Tartarugas Marinhas do Brasil
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Conheça as fascinantes espécies de tartarugas que habitam as águas e terras brasileiras
+            Conheça as fascinantes espécies de tartarugas marinhas que habitam as águas brasileiras
           </p>
         </div>
 

@@ -17,7 +17,7 @@ const Header = () => {
               <span className="text-2xl">🐢</span>
             </div>
             <h1 className="text-2xl font-bold text-primary-foreground">
-              Tartarugas do Brasil
+              Tartarugas Marinhas do Brasil
             </h1>
           </button>
 
