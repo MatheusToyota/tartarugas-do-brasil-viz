@@ -86,7 +86,8 @@ const TartarugaCabecuda = () => {
                     <p className="text-foreground/80 leading-relaxed">
                       <strong>Nome científico:</strong> Caretta caretta<br/>
                       <strong>Família:</strong> Cheloniidae<br/>
-                      <strong>Nomes populares:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                      <strong>Nomes populares:</strong> Nomes populares no Brasil: tartaruga-cabeçuda, tartaruga-amarela, tartaruga-mestiça,
+                      tartaruga-avó, avó-de-aruanã, careba-amarela e careba-dura.
                     </p>
                   </div>
                   <div className="aspect-square bg-muted rounded-lg flex items-center justify-center">
@@ -97,7 +98,11 @@ const TartarugaCabecuda = () => {
                   </div>
                 </div>
                 <p className="text-foreground/80 leading-relaxed">
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+                  A tartaruga-cabeçuda é facilmente reconhecida pela cabeça grande e robusta, equipada
+com mandíbulas extremamente fortes. Essa característica física está relacionada ao seu
+hábito alimentar carnívoro, capaz de esmagar carapaças duras de moluscos e crustáceos.
+É uma das espécies mais adaptáveis, ocupando desde águas costeiras até zonas
+oceânicas profundas ao longo do seu ciclo de vida.
                 </p>
               </CardContent>
             </Card>
@@ -110,10 +115,12 @@ const TartarugaCabecuda = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="space-y-4">
                     <p className="text-foreground/80 leading-relaxed">
-                      <strong>Tamanho e peso:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+                      <strong>Tamanho e peso:</strong> Adultos variam de 80 a 110 cm de comprimento de carapaça e pesam
+entre 70 e 180 kg.
                     </p>
                     <p className="text-foreground/80 leading-relaxed">
-                      <strong>Cabeça robusta:</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+                      <strong>Cabeça robusta:</strong> Proporcionalmente maiores do que nas outras espécies marinhas,
+conferindo força para quebrar presas com estruturas rígidas.
                     </p>
                   </div>
                   <div className="aspect-square bg-muted rounded-lg flex items-center justify-center">
@@ -124,7 +131,11 @@ const TartarugaCabecuda = () => {
                   </div>
                 </div>
                 <p className="text-foreground/80 leading-relaxed">
-                  Sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur.
+                  Carapaça: Oval, de coloração marrom-avermelhada, com plastrão mais claro.
+Nadadeiras: Adaptadas para longos deslocamentos, mas também eficientes em manobras
+rápidas nas áreas costeiras.
+Expectativa de vida: Pode ultrapassar 70 anos, com maturidade sexual geralmente
+alcançada entre 20 e 30 anos
                 </p>
               </CardContent>
             </Card>
@@ -141,10 +152,13 @@ const TartarugaCabecuda = () => {
                   </div>
                 </div>
                 <p className="text-foreground/80 leading-relaxed">
-                  <strong>Ocorrência global:</strong> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
+                  <strong>Ocorrência global:</strong> Presente em mares tropicais e subtropicais de todos os oceanos,
+incluindo o Mediterrâneo.
                 </p>
                 <p className="text-foreground/80 leading-relaxed">
-                  <strong>No Brasil:</strong> Similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus.
+                  <strong>No Brasil:</strong> Adultos e juvenis são registrados do Pará ao Rio Grande do Sul. As principais
+áreas de reprodução ficam no norte do Rio de Janeiro, norte do Espírito Santo, litoral norte
+da Bahia e Sergipe.
                 </p>
               </CardContent>
             </Card>
@@ -157,10 +171,15 @@ const TartarugaCabecuda = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
                     <p className="text-foreground/80 leading-relaxed mb-4">
-                      Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.
+                      A tartaruga-cabeçuda é um predador ativo e um importante controlador populacional de
+várias espécies marinhas.
                     </p>
                     <p className="text-foreground/80 leading-relaxed">
-                      <strong>Dieta carnívora:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                      <strong>Dieta carnívora:</strong> Juvenis (fase oceânica): Vivem em águas abertas, alimentando-se principalmente de
+organismos pelágicos como águas-vivas e salpas.
+Adultos (fase nerítica): Permanecem em águas costeiras e alimentam-se de moluscos,
+crustáceos, ouriços-do-mar, esponjas, cnidários e, ocasionalmente, peixes.
+
                     </p>
                   </div>
                   <div className="aspect-square bg-muted rounded-lg flex items-center justify-center">
@@ -185,7 +204,16 @@ const TartarugaCabecuda = () => {
                   </div>
                 </div>
                 <p className="text-foreground/80 leading-relaxed">
-                  Vel illum qui dolorem eum fugiat quo voluptas nulla pariatur. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
+                  Locais de desova no Brasil: Norte do Rio de Janeiro e norte do Espírito Santo concentram
+as maiores colônias reprodutivas, mas há registros também na Bahia e em Sergipe.
+Temporada: De setembro a março no continente, variando conforme a região.
+Ciclo reprodutivo: Uma fêmea pode realizar de 3 a 5 posturas por temporada, retornando a
+reproduzir após intervalos de 2 a 3 anos.
+Ninhos: Geralmente contêm de 110 a 130 ovos, com incubação média de 60 dias.
+Influência da temperatura: A temperatura da areia determina o sexo dos filhotes; alterações
+climáticas podem impactar essa proporção.
+Comportamento reprodutivo: Retorna à praia natal para desovar, seguindo padrões
+migratórios que podem abranger milhares de quilômetros.
                 </p>
               </CardContent>
             </Card>
@@ -198,7 +226,23 @@ const TartarugaCabecuda = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="space-y-4">
                     <p className="text-foreground/80 leading-relaxed">
-                      <strong>Pesca incidental:</strong> Omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet.
+                      <strong>Pesca incidental:</strong> Captura em redes de emalhe, espinhéis e arrasto, principal causa de
+mortalidade de adultos e juvenis.
+                    </p>
+                    <p className="text-foreground/80 leading-relaxed">
+                      <strong>Desenvolvimento costeiro:</strong> Construções, iluminação artificial e tráfego de veículos nas
+praias afetam o sucesso reprodutivo
+                    </p>
+                    <p className="text-foreground/80 leading-relaxed">
+                      <strong>Poluição:</strong>  Ingestão de resíduos sólidos como plásticos e emalhe em redes abandonadas.
+                    </p>
+                    <p className="text-foreground/80 leading-relaxed">
+                      <strong>Mudanças climáticas:</strong> Alterações de temperatura afetam a razão de sexos; elevação do
+nível do mar e erosão reduzem áreas adequadas para desova.
+                    </p>
+                    <p className="text-foreground/80 leading-relaxed">
+                      <strong>Caça e coleta ilegal:</strong> Apesar de proibidas, ainda há registros isolados de captura de fêmeas
+e coleta de ovos.
                     </p>
                   </div>
                   <div className="aspect-square bg-muted rounded-lg flex items-center justify-center">
@@ -217,7 +261,11 @@ const TartarugaCabecuda = () => {
               </CardHeader>
               <CardContent className="space-y-4">
                 <p className="text-foreground/80 leading-relaxed">
-                  Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                 Projeto TAMAR-ICMBio: Realiza marcação, monitoramento de ninhos, resgate e soltura de
+filhotes, além de campanhas educativas junto às comunidades.
+Áreas protegidas: Reserva Biológica de Comboios (ES), Atol das Rocas (RN), áreas de
+proteção ambiental no litoral da Bahia e Sergipe, e o Parque Nacional Marinho de Abrolhos
+(BA).
                 </p>
                 <div className="aspect-video bg-muted rounded-lg flex items-center justify-center">
                   <div className="text-center text-muted-foreground">
@@ -234,7 +282,17 @@ const TartarugaCabecuda = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-foreground/80 leading-relaxed">
-                  Sed ut non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.
+             A tartaruga-cabeçuda (Caretta caretta) é uma das espécies mais emblemáticas dos mares
+tropicais e subtropicais, facilmente identificada por sua cabeça volumosa e poderosa. Sua
+dieta carnívora e força mandibular a tornam essencial para o equilíbrio das cadeias
+alimentares marinhas, especialmente no controle de invertebrados bentônicos. No Brasil,
+concentra grandes colônias de reprodução no litoral do Espírito Santo e Rio de Janeiro, mas
+percorre extensas rotas migratórias. Apesar de protegida por lei, enfrenta sérias ameaças,
+principalmente a pesca incidental e a perda de habitat. Programas como o Projeto TAMAR
+desempenham papel fundamental em sua preservação, mas o sucesso a longo prazo
+dependerá da redução efetiva das capturas acidentais, da conservação das praias de
+desova e da cooperação entre países que compartilham as águas frequentadas por essa
+resistente viajante dos oceanos.
                 </p>
               </CardContent>
             </Card>
