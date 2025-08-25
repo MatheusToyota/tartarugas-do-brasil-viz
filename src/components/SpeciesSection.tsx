@@ -1,10 +1,10 @@
 import TurtleCard from "./TurtleCard";
-import { useToast } from "@/hooks/use-toast";
+import { useNavigate } from "react-router-dom";
 
 // Images will be added later
 
 const SpeciesSection = () => {
-  const { toast } = useToast();
+  const navigate = useNavigate();
 
   const turtleSpecies = [
     {
@@ -13,7 +13,8 @@ const SpeciesSection = () => {
       scientificName: "Chelonia mydas",
       description: "A maior das tartarugas marinhas encontradas no Brasil, conhecida por sua dieta herbívora quando adulta. Seus filhotes são onívoros, mas migram para uma dieta baseada em algas marinhas e gramíneas.",
       habitat: "Águas costeiras tropicais e subtropicais",
-      status: "Vulnerável"
+      status: "Vulnerável",
+      route: "/tartaruga-verde"
     },
     {
       id: 2,
@@ -21,7 +22,8 @@ const SpeciesSection = () => {
       scientificName: "Caretta caretta",
       description: "Reconhecida por sua grande cabeça e mandíbulas poderosas, adaptadas para quebrar crustáceos e moluscos. É uma das espécies mais comuns nas costas brasileiras.",
       habitat: "Águas oceânicas e costeiras",
-      status: "Vulnerável"
+      status: "Vulnerável",
+      route: "/tartaruga-cabecuda"
     },
     {
       id: 3,
@@ -29,7 +31,8 @@ const SpeciesSection = () => {
       scientificName: "Eretmochelys imbricata",
       description: "Famosa por seu casco belamente padronizado que foi historicamente usado para fazer pentes e ornamentos. Possui bico afiado ideal para se alimentar de esponjas marinhas.",
       habitat: "Recifes de coral e águas tropicais",
-      status: "Criticamente ameaçada"
+      status: "Criticamente ameaçada",
+      route: "/tartaruga-de-pente"
     },
     {
       id: 4,
@@ -37,7 +40,8 @@ const SpeciesSection = () => {
       scientificName: "Lepidochelys olivacea",
       description: "A menor das tartarugas marinhas brasileiras, conhecida por suas desovas sincronizadas em massa. Possui coloração olivácea característica.",
       habitat: "Águas oceânicas tropicais",
-      status: "Vulnerável"
+      status: "Vulnerável",
+      route: "/tartaruga-oliva"
     },
     {
       id: 5,
@@ -45,15 +49,13 @@ const SpeciesSection = () => {
       scientificName: "Dermochelys coriacea",
       description: "A maior tartaruga marinha do mundo, distinguida por não possuir casco rígido, mas sim uma carapaça coriácea. Especialista em alimentar-se de águas-vivas.",
       habitat: "Oceanos profundos e águas costeiras",
-      status: "Vulnerável"
+      status: "Vulnerável",
+      route: "/tartaruga-de-couro"
     }
   ];
 
-  const handleLearnMore = (name: string) => {
-    toast({
-      title: `Saiba mais sobre ${name}`,
-      description: "Em breve teremos informações detalhadas sobre cada espécie!",
-    });
+  const handleLearnMore = (route: string) => {
+    navigate(route);
   };
 
   return (
@@ -77,7 +79,7 @@ const SpeciesSection = () => {
                 description={turtle.description}
                 habitat={turtle.habitat}
                 status={turtle.status}
-                onLearnMore={() => handleLearnMore(turtle.name)}
+                onLearnMore={() => handleLearnMore(turtle.route)}
               />
             </div>
           ))}

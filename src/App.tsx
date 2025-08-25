@@ -6,6 +6,11 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import Header from "./components/Header";
+import TartarugaVerde from "./pages/TartarugaVerde";
+import TartarugaCabecuda from "./pages/TartarugaCabecuda";
+import TartarugaDePente from "./pages/TartarugaDePente";
+import TartarugaOliva from "./pages/TartarugaOliva";
+import TartarugaDeCouro from "./pages/TartarugaDeCouro";
 
 const queryClient = new QueryClient();
 
@@ -19,6 +24,11 @@ const App = () => (
           <Header />
           <Routes>
             <Route path="/" element={<Index />} />
+            <Route path="/tartaruga-verde" element={<TartarugaVerde />} />
+            <Route path="/tartaruga-cabecuda" element={<TartarugaCabecuda />} />
+            <Route path="/tartaruga-de-pente" element={<TartarugaDePente />} />
+            <Route path="/tartaruga-oliva" element={<TartarugaOliva />} />
+            <Route path="/tartaruga-de-couro" element={<TartarugaDeCouro />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
