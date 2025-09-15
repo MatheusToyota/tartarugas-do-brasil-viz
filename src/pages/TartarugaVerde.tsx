@@ -27,11 +27,13 @@ const TartarugaVerde = () => {
             <p className="text-xl text-muted-foreground italic mb-6">
               Chelonia mydas
             </p>
-            <div className="aspect-video bg-muted rounded-lg flex items-center justify-center mb-6">
-              <div className="text-center text-muted-foreground">
-                <div className="text-6xl mb-2">📷</div>
-                <p>Espaço para imagem principal</p>
-              </div>
+            <div className="aspect-video bg-muted rounded-lg flex items-center justify-center mb-6 overflow-hidden">
+              <img
+                src="/src/assets/img/Tartaruga-Verde/Tartaruga-Verde(1).webp"
+                alt="Tartaruga-verde principal"
+                className="object-cover w-full h-full rounded-lg"
+                style={{ maxHeight: "auto" }}
+              />
             </div>
           </div>
 
@@ -90,10 +92,12 @@ const TartarugaVerde = () => {
                     </p>
                   </div>
                   <div className="aspect-square bg-muted rounded-lg flex items-center justify-center">
-                    <div className="text-center text-muted-foreground">
-                      <div className="text-4xl mb-2">📷</div>
-                      <p className="text-sm">Imagem de classificação</p>
-                    </div>
+                    <img
+                      src="/src/assets/img/Tartaruga-Verde/Tartaruga-Verde(2).jpg"
+                      alt="Classificação tartaruga-verde"
+                      className="object-cover w-full h-full rounded-lg"
+                      style={{ maxHeight: "auto" }}
+                    />
                   </div>
                 </div>
                 <p className="text-foreground/80 leading-relaxed">
@@ -117,10 +121,12 @@ const TartarugaVerde = () => {
                     </p>
                   </div>
                   <div className="aspect-square bg-muted rounded-lg flex items-center justify-center">
-                    <div className="text-center text-muted-foreground">
-                      <div className="text-4xl mb-2">📷</div>
-                      <p className="text-sm">Características físicas</p>
-                    </div>
+                    <img
+                      src="/src/assets/img/Tartaruga-Verde/Tartaruga-Verde(3).jpg"
+                      alt="Características físicas tartaruga-verde"
+                      className="object-cover w-full h-full rounded-lg"
+                      style={{ maxHeight: "auto" }}
+                    />
                   </div>
                 </div>
                 <p className="text-foreground/80 leading-relaxed">
@@ -135,10 +141,12 @@ const TartarugaVerde = () => {
               </CardHeader>
               <CardContent className="space-y-4">
                 <div className="aspect-video bg-muted rounded-lg flex items-center justify-center mb-4">
-                  <div className="text-center text-muted-foreground">
-                    <div className="text-6xl mb-2">🗺️</div>
-                    <p>Mapa de distribuição</p>
-                  </div>
+                  <img
+                    src="/src/assets/img/Tartaruga-Verde/Tartaruga-Verde(4).jpg"
+                    alt="Mapa de distribuição tartaruga-verde"
+                    className="object-cover w-full h-full rounded-lg"
+                    style={{ maxHeight: "auto" }}
+                  />
                 </div>
                 <p className="text-foreground/80 leading-relaxed">
                   <strong>Ocorrência global:</strong> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
@@ -167,10 +175,12 @@ const TartarugaVerde = () => {
                     </p>
                   </div>
                   <div className="aspect-square bg-muted rounded-lg flex items-center justify-center">
-                    <div className="text-center text-muted-foreground">
-                      <div className="text-4xl mb-2">🌿</div>
-                      <p className="text-sm">Alimentação</p>
-                    </div>
+                    <img
+                      src="/src/assets/img/Tartaruga-Verde/Tartaruga-Verde(5).jpg"
+                      alt="Alimentação tartaruga-verde"
+                      className="object-cover w-full h-full rounded-lg"
+                      style={{ maxHeight: "auto" }}
+                    />
                   </div>
                 </div>
                 <p className="text-foreground/80 leading-relaxed">
@@ -185,10 +195,12 @@ const TartarugaVerde = () => {
               </CardHeader>
               <CardContent className="space-y-4">
                 <div className="aspect-video bg-muted rounded-lg flex items-center justify-center mb-4">
-                  <div className="text-center text-muted-foreground">
-                    <div className="text-6xl mb-2">🥚</div>
-                    <p>Processo reprodutivo</p>
-                  </div>
+                  <img
+                    src="/src/assets/img/Tartaruga-Verde/Tartaruga-Verde(6).webp"
+                    alt="Processo reprodutivo tartaruga-verde"
+                    className="object-cover w-full h-full rounded-lg"
+                    style={{ maxHeight: "auto" }}
+                  />
                 </div>
                 <p className="text-foreground/80 leading-relaxed">
                   <strong>Locais de desova:</strong> Vel illum qui dolorem eum fugiat quo voluptas nulla pariatur. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.
@@ -217,10 +229,12 @@ const TartarugaVerde = () => {
                     </p>
                   </div>
                   <div className="aspect-square bg-muted rounded-lg flex items-center justify-center">
-                    <div className="text-center text-muted-foreground">
-                      <div className="text-4xl mb-2">⚠️</div>
-                      <p className="text-sm">Principais ameaças</p>
-                    </div>
+                    <img
+                      src="/src/assets/img/Tartaruga-Verde/Tartaruga-Verde(7).jpeg"
+                      alt="Principais ameaças tartaruga-verde"
+                      className="object-cover w-full h-full rounded-lg"
+                      style={{ maxHeight: "auto" }}
+                    />
                   </div>
                 </div>
                 <p className="text-foreground/80 leading-relaxed">

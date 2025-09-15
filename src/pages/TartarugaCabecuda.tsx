@@ -27,11 +27,13 @@ const TartarugaCabecuda = () => {
             <p className="text-xl text-muted-foreground italic mb-6">
               Caretta caretta
             </p>
-            <div className="aspect-video bg-muted rounded-lg flex items-center justify-center mb-6">
-              <div className="text-center text-muted-foreground">
-                <div className="text-6xl mb-2">📷</div>
-                <p>Espaço para imagem principal</p>
-              </div>
+            <div className="aspect-video bg-muted rounded-lg flex items-center justify-center mb-6 overflow-hidden">
+              <img
+                src="/src/assets/img/Tartaruga-Cabecuda/Tartaruga-Cabecuda(1).jpg"
+                alt="Tartaruga-cabeçuda principal"
+                className="object-cover w-full h-full rounded-lg"
+                style={{ maxHeight: "auto" }}
+              />
             </div>
           </div>
 
@@ -90,11 +92,13 @@ const TartarugaCabecuda = () => {
                       tartaruga-avó, avó-de-aruanã, careba-amarela e careba-dura.
                     </p>
                   </div>
-                  <div className="aspect-square bg-muted rounded-lg flex items-center justify-center">
-                    <div className="text-center text-muted-foreground">
-                      <div className="text-4xl mb-2">📷</div>
-                      <p className="text-sm">Imagem de classificação</p>
-                    </div>
+                  <div className="aspect-square bg-muted rounded-lg flex items-center justify-center overflow-hidden">
+                    <img
+                      src="/src/assets/img/Tartaruga-Cabecuda/Tartaruga-Cabecuda(2).webp"
+                      alt="Classificação tartaruga-cabeçuda"
+                      className="object-cover w-full h-full rounded-lg"
+                      style={{ maxHeight: "auto" }}
+                    />
                   </div>
                 </div>
                 <p className="text-foreground/80 leading-relaxed">
@@ -123,11 +127,13 @@ entre 70 e 180 kg.
 conferindo força para quebrar presas com estruturas rígidas.
                     </p>
                   </div>
-                  <div className="aspect-square bg-muted rounded-lg flex items-center justify-center">
-                    <div className="text-center text-muted-foreground">
-                      <div className="text-4xl mb-2">📷</div>
-                      <p className="text-sm">Características físicas</p>
-                    </div>
+                  <div className="aspect-square bg-muted rounded-lg flex items-center justify-center overflow-hidden">
+                    <img
+                      src="/src/assets/img/Tartaruga-Cabecuda/Tartaruga-Cabecuda(3).jpg"
+                      alt="Características físicas tartaruga-cabeçuda"
+                      className="object-cover w-full h-full rounded-lg"
+                      style={{ maxHeight: "auto" }}
+                    />
                   </div>
                 </div>
                 <p className="text-foreground/80 leading-relaxed">
@@ -145,11 +151,13 @@ alcançada entre 20 e 30 anos
                 <CardTitle className="text-2xl text-primary">3. Distribuição e Hábitat</CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
-                <div className="aspect-video bg-muted rounded-lg flex items-center justify-center mb-4">
-                  <div className="text-center text-muted-foreground">
-                    <div className="text-6xl mb-2">🗺️</div>
-                    <p>Mapa de distribuição</p>
-                  </div>
+                <div className="aspect-video bg-muted rounded-lg flex items-center justify-center mb-4 overflow-hidden">
+                  <img
+                    src="/src/assets/img/Tartaruga-Cabecuda/Tartaruga-Cabecuda(4).jpg"
+                    alt="Mapa de distribuição tartaruga-cabeçuda"
+                    className="object-cover w-full h-full rounded-lg"
+                    style={{ maxHeight: "auto" }}
+                  />
                 </div>
                 <p className="text-foreground/80 leading-relaxed">
                   <strong>Ocorrência global:</strong> Presente em mares tropicais e subtropicais de todos os oceanos,
@@ -182,11 +190,13 @@ crustáceos, ouriços-do-mar, esponjas, cnidários e, ocasionalmente, peixes.
 
                     </p>
                   </div>
-                  <div className="aspect-square bg-muted rounded-lg flex items-center justify-center">
-                    <div className="text-center text-muted-foreground">
-                      <div className="text-4xl mb-2">🦀</div>
-                      <p className="text-sm">Alimentação</p>
-                    </div>
+                  <div className="aspect-square bg-muted rounded-lg flex items-center justify-center overflow-hidden">
+                    <img
+                      src="/src/assets/img/Tartaruga-Cabecuda/Tartaruga-Cabecuda(5).jpg"
+                      alt="Alimentação tartaruga-cabeçuda"
+                      className="object-cover w-full h-full rounded-lg"
+                      style={{ maxHeight: "auto" }}
+                    />
                   </div>
                 </div>
               </CardContent>
@@ -197,11 +207,13 @@ crustáceos, ouriços-do-mar, esponjas, cnidários e, ocasionalmente, peixes.
                 <CardTitle className="text-2xl text-primary">5. Reprodução e Ciclo de Vida</CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
-                <div className="aspect-video bg-muted rounded-lg flex items-center justify-center mb-4">
-                  <div className="text-center text-muted-foreground">
-                    <div className="text-6xl mb-2">🥚</div>
-                    <p>Processo reprodutivo</p>
-                  </div>
+                <div className="aspect-video bg-muted rounded-lg flex items-center justify-center mb-4 overflow-hidden">
+                  <img
+                    src="/src/assets/img/Tartaruga-Cabecuda/Tartaruga-Cabecuda(6).jpg"
+                    alt="Processo reprodutivo tartaruga-cabeçuda"
+                    className="object-cover w-full h-full rounded-lg"
+                    style={{ maxHeight: "auto" }}
+                  />
                 </div>
                 <p className="text-foreground/80 leading-relaxed">
                   Locais de desova no Brasil: Norte do Rio de Janeiro e norte do Espírito Santo concentram
@@ -245,11 +257,13 @@ nível do mar e erosão reduzem áreas adequadas para desova.
 e coleta de ovos.
                     </p>
                   </div>
-                  <div className="aspect-square bg-muted rounded-lg flex items-center justify-center">
-                    <div className="text-center text-muted-foreground">
-                      <div className="text-4xl mb-2">⚠️</div>
-                      <p className="text-sm">Principais ameaças</p>
-                    </div>
+                  <div className="aspect-square bg-muted rounded-lg flex items-center justify-center overflow-hidden">
+                    <img
+                      src="/src/assets/img/Tartaruga-Cabecuda/Tartaruga-Cabecuda(7).jpg"
+                      alt="Principais ameaças tartaruga-cabeçuda"
+                      className="object-cover w-full h-full rounded-lg"
+                      style={{ maxHeight: "auto" }}
+                    />
                   </div>
                 </div>
               </CardContent>
