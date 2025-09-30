@@ -3,6 +3,15 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { ArrowLeft, MapPin, Calendar, Shield } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
+// Import images
+import cabecudaImg1 from "@/assets/img/Tartaruga-Cabecuda/Tartaruga-Cabecuda(1).jpg";
+import cabecudaImg2 from "@/assets/img/Tartaruga-Cabecuda/Tartaruga-Cabecuda(2).webp";
+import cabecudaImg3 from "@/assets/img/Tartaruga-Cabecuda/Tartaruga-Cabecuda(3).jpg";
+import cabecudaImg4 from "@/assets/img/Tartaruga-Cabecuda/Tartaruga-Cabecuda(4).jpg";
+import cabecudaImg5 from "@/assets/img/Tartaruga-Cabecuda/Tartaruga-Cabecuda(5).jpg";
+import cabecudaImg6 from "@/assets/img/Tartaruga-Cabecuda/Tartaruga-Cabecuda(6).jpg";
+import cabecudaImg7 from "@/assets/img/Tartaruga-Cabecuda/Tartaruga-Cabecuda(7).jpg";
+
 const TartarugaCabecuda = () => {
   const navigate = useNavigate();
 
@@ -29,10 +38,9 @@ const TartarugaCabecuda = () => {
             </p>
             <div className="aspect-video bg-muted rounded-lg flex items-center justify-center mb-6 overflow-hidden">
               <img
-                src="/src/assets/img/Tartaruga-Cabecuda/Tartaruga-Cabecuda(1).jpg"
+                src={cabecudaImg1}
                 alt="Tartaruga-cabeçuda principal"
                 className="object-cover w-full h-full rounded-lg"
-                style={{ maxHeight: "auto" }}
               />
             </div>
           </div>
@@ -94,10 +102,9 @@ const TartarugaCabecuda = () => {
                   </div>
                   <div className="aspect-square bg-muted rounded-lg flex items-center justify-center overflow-hidden">
                     <img
-                      src="/src/assets/img/Tartaruga-Cabecuda/Tartaruga-Cabecuda(2).webp"
+                      src={cabecudaImg2}
                       alt="Classificação tartaruga-cabeçuda"
                       className="object-cover w-full h-full rounded-lg"
-                      style={{ maxHeight: "auto" }}
                     />
                   </div>
                 </div>
@@ -129,10 +136,9 @@ conferindo força para quebrar presas com estruturas rígidas.
                   </div>
                   <div className="aspect-square bg-muted rounded-lg flex items-center justify-center overflow-hidden">
                     <img
-                      src="/src/assets/img/Tartaruga-Cabecuda/Tartaruga-Cabecuda(3).jpg"
+                      src={cabecudaImg3}
                       alt="Características físicas tartaruga-cabeçuda"
                       className="object-cover w-full h-full rounded-lg"
-                      style={{ maxHeight: "auto" }}
                     />
                   </div>
                 </div>
@@ -153,10 +159,9 @@ alcançada entre 20 e 30 anos
               <CardContent className="space-y-4">
                 <div className="aspect-video bg-muted rounded-lg flex items-center justify-center mb-4 overflow-hidden">
                   <img
-                    src="/src/assets/img/Tartaruga-Cabecuda/Tartaruga-Cabecuda(4).jpg"
+                    src={cabecudaImg4}
                     alt="Mapa de distribuição tartaruga-cabeçuda"
                     className="object-cover w-full h-full rounded-lg"
-                    style={{ maxHeight: "auto" }}
                   />
                 </div>
                 <p className="text-foreground/80 leading-relaxed">
@@ -192,10 +197,9 @@ crustáceos, ouriços-do-mar, esponjas, cnidários e, ocasionalmente, peixes.
                   </div>
                   <div className="aspect-square bg-muted rounded-lg flex items-center justify-center overflow-hidden">
                     <img
-                      src="/src/assets/img/Tartaruga-Cabecuda/Tartaruga-Cabecuda(5).jpg"
+                      src={cabecudaImg5}
                       alt="Alimentação tartaruga-cabeçuda"
                       className="object-cover w-full h-full rounded-lg"
-                      style={{ maxHeight: "auto" }}
                     />
                   </div>
                 </div>
@@ -209,10 +213,9 @@ crustáceos, ouriços-do-mar, esponjas, cnidários e, ocasionalmente, peixes.
               <CardContent className="space-y-4">
                 <div className="aspect-video bg-muted rounded-lg flex items-center justify-center mb-4 overflow-hidden">
                   <img
-                    src="/src/assets/img/Tartaruga-Cabecuda/Tartaruga-Cabecuda(6).jpg"
+                    src={cabecudaImg6}
                     alt="Processo reprodutivo tartaruga-cabeçuda"
                     className="object-cover w-full h-full rounded-lg"
-                    style={{ maxHeight: "auto" }}
                   />
                 </div>
                 <p className="text-foreground/80 leading-relaxed">
@@ -259,10 +262,9 @@ e coleta de ovos.
                   </div>
                   <div className="aspect-square bg-muted rounded-lg flex items-center justify-center overflow-hidden">
                     <img
-                      src="/src/assets/img/Tartaruga-Cabecuda/Tartaruga-Cabecuda(7).jpg"
+                      src={cabecudaImg7}
                       alt="Principais ameaças tartaruga-cabeçuda"
                       className="object-cover w-full h-full rounded-lg"
-                      style={{ maxHeight: "auto" }}
                     />
                   </div>
                 </div>

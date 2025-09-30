@@ -3,6 +3,15 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { ArrowLeft, MapPin, Calendar, Shield } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
+// Import images
+import olivaImg1 from "@/assets/img/Tartaruga-Olivia/Tartaruga-Olivia(1).jpg";
+import olivaImg2 from "@/assets/img/Tartaruga-Olivia/Tartaruga-Olivia(2).jpg";
+import olivaImg3 from "@/assets/img/Tartaruga-Olivia/Tartaruga-Olivia(3).jpg";
+import olivaImg4 from "@/assets/img/Tartaruga-Olivia/Tartaruga-Olivia(4).jpg";
+import olivaImg5 from "@/assets/img/Tartaruga-Olivia/Tartaruga-Olivia(5).jpg";
+import olivaImg6 from "@/assets/img/Tartaruga-Olivia/Tartaruga-Olivia(6).jpg";
+import olivaImg7 from "@/assets/img/Tartaruga-Olivia/Tartaruga-Olivia(7).jpg";
+
 const TartarugaOliva = () => {
   const navigate = useNavigate();
 
@@ -29,10 +38,9 @@ const TartarugaOliva = () => {
             </p>
             <div className="aspect-video bg-muted rounded-lg flex items-center justify-center mb-6 overflow-hidden">
               <img
-                src="/src/assets/img/Tartaruga-Olivia/Tartaruga-Olivia(1).jpg"
+                src={olivaImg1}
                 alt="Tartaruga-oliva principal"
                 className="object-cover w-full h-full rounded-lg"
-                style={{ maxHeight: "auto" }}
               />
             </div>
           </div>
@@ -93,10 +101,9 @@ const TartarugaOliva = () => {
                   </div>
                   <div className="aspect-square bg-muted rounded-lg flex items-center justify-center">
                     <img
-                      src="/src/assets/img/Tartaruga-Olivia/Tartaruga-Olivia(2).jpg"
+                      src={olivaImg2}
                       alt="Classificação tartaruga-oliva"
                       className="object-cover w-full h-full rounded-lg"
-                      style={{ maxHeight: "auto" }}
                     />
                   </div>
                 </div>
@@ -122,10 +129,9 @@ const TartarugaOliva = () => {
                   </div>
                   <div className="aspect-square bg-muted rounded-lg flex items-center justify-center">
                     <img
-                      src="/src/assets/img/Tartaruga-Olivia/Tartaruga-Olivia(3).jpg"
+                      src={olivaImg3}
                       alt="Características físicas tartaruga-oliva"
                       className="object-cover w-full h-full rounded-lg"
-                      style={{ maxHeight: "auto" }}
                     />
                   </div>
                 </div>
@@ -142,10 +148,9 @@ const TartarugaOliva = () => {
               <CardContent className="space-y-4">
                 <div className="aspect-video bg-muted rounded-lg flex items-center justify-center mb-4">
                   <img
-                    src="/src/assets/img/Tartaruga-Olivia/Tartaruga-Olivia(4).jpg"
+                    src={olivaImg4}
                     alt="Mapa de distribuição tartaruga-oliva"
                     className="object-cover w-full h-full rounded-lg"
-                    style={{ maxHeight: "auto" }}
                   />
                 </div>
                 <p className="text-foreground/80 leading-relaxed">
@@ -170,10 +175,9 @@ const TartarugaOliva = () => {
                   </div>
                   <div className="aspect-square bg-muted rounded-lg flex items-center justify-center">
                     <img
-                      src="/src/assets/img/Tartaruga-Olivia/Tartaruga-Olivia(5).jpg"
+                      src={olivaImg5}
                       alt="Alimentação tartaruga-oliva"
                       className="object-cover w-full h-full rounded-lg"
-                      style={{ maxHeight: "auto" }}
                     />
                   </div>
                 </div>
@@ -187,10 +191,9 @@ const TartarugaOliva = () => {
               <CardContent className="space-y-4">
                 <div className="aspect-video bg-muted rounded-lg flex items-center justify-center mb-4">
                   <img
-                    src="/src/assets/img/Tartaruga-Olivia/Tartaruga-Olivia(6).jpg"
+                    src={olivaImg6}
                     alt="Desovas sincronizadas tartaruga-oliva"
                     className="object-cover w-full h-full rounded-lg"
-                    style={{ maxHeight: "auto" }}
                   />
                 </div>
                 <p className="text-foreground/80 leading-relaxed">
@@ -212,10 +215,9 @@ const TartarugaOliva = () => {
                   </div>
                   <div className="aspect-square bg-muted rounded-lg flex items-center justify-center">
                     <img
-                      src="/src/assets/img/Tartaruga-Olivia/Tartaruga-Olivia(7).jpg"
+                      src={olivaImg7}
                       alt="Principais ameaças tartaruga-oliva"
                       className="object-cover w-full h-full rounded-lg"
-                      style={{ maxHeight: "auto" }}
                     />
                   </div>
                 </div>

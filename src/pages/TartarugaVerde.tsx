@@ -3,6 +3,15 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { ArrowLeft, MapPin, Calendar, Shield } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
+// Import images
+import verdeImg1 from "@/assets/img/Tartaruga-Verde/Tartaruga-Verde(1).webp";
+import verdeImg2 from "@/assets/img/Tartaruga-Verde/Tartaruga-Verde(2).jpg";
+import verdeImg3 from "@/assets/img/Tartaruga-Verde/Tartaruga-Verde(3).jpg";
+import verdeImg4 from "@/assets/img/Tartaruga-Verde/Tartaruga-Verde(4).jpg";
+import verdeImg5 from "@/assets/img/Tartaruga-Verde/Tartaruga-Verde(5).jpg";
+import verdeImg6 from "@/assets/img/Tartaruga-Verde/Tartaruga-Verde(6).webp";
+import verdeImg7 from "@/assets/img/Tartaruga-Verde/Tartaruga-Verde(7).jpeg";
+
 const TartarugaVerde = () => {
   const navigate = useNavigate();
 
@@ -29,10 +38,9 @@ const TartarugaVerde = () => {
             </p>
             <div className="aspect-video bg-muted rounded-lg flex items-center justify-center mb-6 overflow-hidden">
               <img
-                src="/src/assets/img/Tartaruga-Verde/Tartaruga-Verde(1).webp"
+                src={verdeImg1}
                 alt="Tartaruga-verde principal"
                 className="object-cover w-full h-full rounded-lg"
-                style={{ maxHeight: "auto" }}
               />
             </div>
           </div>
@@ -93,10 +101,9 @@ const TartarugaVerde = () => {
                   </div>
                   <div className="aspect-square bg-muted rounded-lg flex items-center justify-center">
                     <img
-                      src="/src/assets/img/Tartaruga-Verde/Tartaruga-Verde(2).jpg"
+                      src={verdeImg2}
                       alt="Classificação tartaruga-verde"
                       className="object-cover w-full h-full rounded-lg"
-                      style={{ maxHeight: "auto" }}
                     />
                   </div>
                 </div>
@@ -122,10 +129,9 @@ const TartarugaVerde = () => {
                   </div>
                   <div className="aspect-square bg-muted rounded-lg flex items-center justify-center">
                     <img
-                      src="/src/assets/img/Tartaruga-Verde/Tartaruga-Verde(3).jpg"
+                      src={verdeImg3}
                       alt="Características físicas tartaruga-verde"
                       className="object-cover w-full h-full rounded-lg"
-                      style={{ maxHeight: "auto" }}
                     />
                   </div>
                 </div>
@@ -142,10 +148,9 @@ const TartarugaVerde = () => {
               <CardContent className="space-y-4">
                 <div className="aspect-video bg-muted rounded-lg flex items-center justify-center mb-4">
                   <img
-                    src="/src/assets/img/Tartaruga-Verde/Tartaruga-Verde(4).jpg"
+                    src={verdeImg4}
                     alt="Mapa de distribuição tartaruga-verde"
                     className="object-cover w-full h-full rounded-lg"
-                    style={{ maxHeight: "auto" }}
                   />
                 </div>
                 <p className="text-foreground/80 leading-relaxed">
@@ -176,10 +181,9 @@ const TartarugaVerde = () => {
                   </div>
                   <div className="aspect-square bg-muted rounded-lg flex items-center justify-center">
                     <img
-                      src="/src/assets/img/Tartaruga-Verde/Tartaruga-Verde(5).jpg"
+                      src={verdeImg5}
                       alt="Alimentação tartaruga-verde"
                       className="object-cover w-full h-full rounded-lg"
-                      style={{ maxHeight: "auto" }}
                     />
                   </div>
                 </div>
@@ -196,10 +200,9 @@ const TartarugaVerde = () => {
               <CardContent className="space-y-4">
                 <div className="aspect-video bg-muted rounded-lg flex items-center justify-center mb-4">
                   <img
-                    src="/src/assets/img/Tartaruga-Verde/Tartaruga-Verde(6).webp"
+                    src={verdeImg6}
                     alt="Processo reprodutivo tartaruga-verde"
                     className="object-cover w-full h-full rounded-lg"
-                    style={{ maxHeight: "auto" }}
                   />
                 </div>
                 <p className="text-foreground/80 leading-relaxed">
@@ -230,10 +233,9 @@ const TartarugaVerde = () => {
                   </div>
                   <div className="aspect-square bg-muted rounded-lg flex items-center justify-center">
                     <img
-                      src="/src/assets/img/Tartaruga-Verde/Tartaruga-Verde(7).jpeg"
+                      src={verdeImg7}
                       alt="Principais ameaças tartaruga-verde"
                       className="object-cover w-full h-full rounded-lg"
-                      style={{ maxHeight: "auto" }}
                     />
                   </div>
                 </div>
