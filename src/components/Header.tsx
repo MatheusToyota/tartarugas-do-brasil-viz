@@ -47,7 +47,7 @@ const Header = () => {
                     Espécies
                   </NavigationMenuTrigger>
                   <NavigationMenuContent>
-                    <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
+                    <ul className="grid w-[250px] gap-2 p-4">
                       {[
                         { name: "Tartaruga-verde", route: "/tartaruga-verde" },
                         { name: "Tartaruga-cabeçuda", route: "/tartaruga-cabecuda" },
