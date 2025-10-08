@@ -1,7 +1,12 @@
 import TurtleCard from "./TurtleCard";
 import { useNavigate } from "react-router-dom";
 
-// Images will be added later
+// Import images
+import tartarugaVerdeImg from "@/assets/img/Tartaruga-Verde/Tartaruga-Verde(5).jpg";
+import tartarugaCabecudaImg from "@/assets/img/Tartaruga-Cabecuda/closeup-shot-beautiful-turtle-swimming-sea.jpg";
+import tartarugaDePenteImg from "@/assets/img/Tartaruga-de-Pente/Eretmochelys_imbricata_485863712.jpg";
+import tartarugaOlivaImg from "@/assets/img/Tartaruga-Olivia/Lepidochelys-olivacea-Kélonia-1.jpg";
+import tartarugaDeCouroImg from "@/assets/img/Tartaruga-de-Couro/640px-Close_up_of_dermochelys_coriacea_leatherback_turtle.jpg";
 
 const SpeciesSection = () => {
   const navigate = useNavigate();
@@ -15,7 +20,7 @@ const SpeciesSection = () => {
       habitat: "Águas costeiras tropicais e subtropicais",
       status: "Vulnerável",
       route: "/tartaruga-verde",
-      imageUrl: require("@/assets/img/Tartaruga-Verde/Tartaruga-Verde(5).jpg")
+      imageUrl: tartarugaVerdeImg
     },
     {
       id: 2,
@@ -25,7 +30,7 @@ const SpeciesSection = () => {
       habitat: "Águas oceânicas e costeiras",
       status: "Vulnerável",
       route: "/tartaruga-cabecuda",
-      imageUrl: require("@/assets/img/Tartaruga-Cabecuda/closeup-shot-beautiful-turtle-swimming-sea.jpg")
+      imageUrl: tartarugaCabecudaImg
     },
     {
       id: 3,
@@ -35,7 +40,7 @@ const SpeciesSection = () => {
       habitat: "Recifes de coral e águas tropicais",
       status: "Criticamente ameaçada",
       route: "/tartaruga-de-pente",
-      imageUrl: require("@/assets/img/Tartaruga-de-Pente/Eretmochelys_imbricata_485863712.jpg")
+      imageUrl: tartarugaDePenteImg
     },
     {
       id: 4,
@@ -45,7 +50,7 @@ const SpeciesSection = () => {
       habitat: "Águas oceânicas tropicais",
       status: "Vulnerável",
       route: "/tartaruga-oliva",
-      imageUrl: require("@/assets/img/Tartaruga-Olivia/Lepidochelys-olivacea-Kélonia-1.jpg")
+      imageUrl: tartarugaOlivaImg
     },
     {
       id: 5,
@@ -55,7 +60,7 @@ const SpeciesSection = () => {
       habitat: "Oceanos profundos e águas costeiras",
       status: "Vulnerável",
       route: "/tartaruga-de-couro",
-      imageUrl: require("@/assets/img/Tartaruga-de-Couro/640px-Close_up_of_dermochelys_coriacea_leatherback_turtle.jpg")
+      imageUrl: tartarugaDeCouroImg
     }
   ];
 
