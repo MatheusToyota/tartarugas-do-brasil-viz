@@ -1,7 +1,16 @@
+
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { ArrowLeft, MapPin, Calendar, Shield } from "lucide-react";
 import { useNavigate } from "react-router-dom";
+// Importação das imagens
+import penteImg1 from "@/assets/img/Tartaruga-de-Pente/Eretmochelys_imbricata_485863712.jpg";
+import penteImg2 from "@/assets/img/Tartaruga-de-Pente/Eretmochelys_imbricata_519872831.jpg";
+import penteImg3 from "@/assets/img/Tartaruga-de-Pente/Eretmochelys_imbricata_Indonesia3.jpg";
+import penteImg4 from "@/assets/img/Tartaruga-de-Pente/Hawksbill_Sea_Turtle,_Tavernier,_Florida_-_54256522485.jpg";
+import penteImg5 from "@/assets/img/Tartaruga-de-Pente/Hawksbill_turtle_(Eretmochelys_imbricata)_Indonesia.jpg";
+import penteImg6 from "@/assets/img/Tartaruga-de-Pente/Hawksbill_turtle_(Eretmochelys_imbricata)_Indonesia2.jpg";
+import penteImg7 from "@/assets/img/Tartaruga-de-Pente/Sea_Turtle_Showing_Markings_In_East_Pacific.jpg";
 
 const TartarugaDePente = () => {
   const navigate = useNavigate();
@@ -27,11 +36,12 @@ const TartarugaDePente = () => {
             <p className="text-xl text-muted-foreground italic mb-6">
               Eretmochelys imbricata
             </p>
-            <div className="aspect-video bg-muted rounded-lg flex items-center justify-center mb-6">
-              <div className="text-center text-muted-foreground">
-                <div className="text-6xl mb-2">📷</div>
-                <p>Espaço para imagem principal</p>
-              </div>
+            <div className="aspect-video bg-muted rounded-lg flex items-center justify-center mb-6 overflow-hidden">
+              <img
+                src={penteImg1}
+                alt="Tartaruga-de-pente principal"
+                className="object-cover w-full h-full rounded-lg"
+              />
             </div>
           </div>
 

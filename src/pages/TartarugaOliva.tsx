@@ -4,13 +4,13 @@ import { ArrowLeft, MapPin, Calendar, Shield } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
 // Import images
-import olivaImg1 from "@/assets/img/Tartaruga-Olivia/Tartaruga-Olivia(1).jpg";
-import olivaImg2 from "@/assets/img/Tartaruga-Olivia/Tartaruga-Olivia(2).jpg";
-import olivaImg3 from "@/assets/img/Tartaruga-Olivia/Tartaruga-Olivia(3).jpg";
-import olivaImg4 from "@/assets/img/Tartaruga-Olivia/Tartaruga-Olivia(4).jpg";
-import olivaImg5 from "@/assets/img/Tartaruga-Olivia/Tartaruga-Olivia(5).jpg";
-import olivaImg6 from "@/assets/img/Tartaruga-Olivia/Tartaruga-Olivia(6).jpg";
-import olivaImg7 from "@/assets/img/Tartaruga-Olivia/Tartaruga-Olivia(7).jpg";
+import olivaImg1 from "@/assets/img/Tartaruga-Olivia/Lepidochelys-olivacea-Kélonia-1.jpg";
+import olivaImg2 from "@/assets/img/Tartaruga-Olivia/Tartaruga-Olivia(1).jpg";
+import olivaImg3 from "@/assets/img/Tartaruga-Olivia/ANI080-00517-1920x1278.jpg";
+import olivaImg4 from "@/assets/img/Tartaruga-Olivia/1.jpg";
+import olivaImg5 from "@/assets/img/Tartaruga-Olivia/439772.jpg";
+import olivaImg6 from "@/assets/img/Tartaruga-Olivia/Olive_ridley_hatchling_in_Mexico_(8218893828).jpg";
+import olivaImg7 from "@/assets/img/Tartaruga-Olivia/Tartaruga-Olivia(5).jpg";
 
 const TartarugaOliva = () => {
   const navigate = useNavigate();

@@ -1,7 +1,15 @@
+
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { ArrowLeft, MapPin, Calendar, Shield } from "lucide-react";
 import { useNavigate } from "react-router-dom";
+// Importação das imagens
+import couroImg1 from "@/assets/img/Tartaruga-de-Couro/640px-Close_up_of_dermochelys_coriacea_leatherback_turtle.jpg";
+import couroImg2 from "@/assets/img/Tartaruga-de-Couro/Leatherback_Turtle_eggs_hatching_at_Eagle_Beach,_Aruba_(cropped).jpg";
+import couroImg3 from "@/assets/img/Tartaruga-de-Couro/Leatherback_closeup_benson_swfsc.jpg";
+import couroImg4 from "@/assets/img/Tartaruga-de-Couro/Leatherback_sea_turtle_(30059232178).jpg";
+import couroImg5 from "@/assets/img/Tartaruga-de-Couro/Leatherback_sea_turtle_on_the_beach_Tinglar_(5839996429).jpg";
+import couroImg6 from "@/assets/img/Tartaruga-de-Couro/Lederschildkr_dermochelys-coriacea-senkenberg_hg.jpg";
 
 const TartarugaDeCouro = () => {
   const navigate = useNavigate();
@@ -27,11 +35,12 @@ const TartarugaDeCouro = () => {
             <p className="text-xl text-muted-foreground italic mb-6">
               Dermochelys coriacea
             </p>
-            <div className="aspect-video bg-muted rounded-lg flex items-center justify-center mb-6">
-              <div className="text-center text-muted-foreground">
-                <div className="text-6xl mb-2">📷</div>
-                <p>Espaço para imagem principal</p>
-              </div>
+            <div className="aspect-video bg-muted rounded-lg flex items-center justify-center mb-6 overflow-hidden">
+              <img
+                src={couroImg1}
+                alt="Tartaruga-de-couro principal"
+                className="object-cover w-full h-full rounded-lg"
+              />
             </div>
           </div>
 

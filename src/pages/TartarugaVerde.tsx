@@ -4,13 +4,13 @@ import { ArrowLeft, MapPin, Calendar, Shield } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
 // Import images
-import verdeImg1 from "@/assets/img/Tartaruga-Verde/Tartaruga-Verde(1).webp";
-import verdeImg2 from "@/assets/img/Tartaruga-Verde/Tartaruga-Verde(2).jpg";
+import verdeImg1 from "@/assets/img/Tartaruga-Verde/Tartaruga-Verde(5).jpg";
+import verdeImg2 from "@/assets/img/Tartaruga-Verde/Tartaruga-Verde(7).jpeg";
 import verdeImg3 from "@/assets/img/Tartaruga-Verde/Tartaruga-Verde(3).jpg";
-import verdeImg4 from "@/assets/img/Tartaruga-Verde/Tartaruga-Verde(4).jpg";
-import verdeImg5 from "@/assets/img/Tartaruga-Verde/Tartaruga-Verde(5).jpg";
-import verdeImg6 from "@/assets/img/Tartaruga-Verde/Tartaruga-Verde(6).webp";
-import verdeImg7 from "@/assets/img/Tartaruga-Verde/Tartaruga-Verde(7).jpeg";
+import verdeImg4 from "@/assets/img/Tartaruga-Verde/Tartaruga-Verde(1).webp";
+import verdeImg5 from "@/assets/img/Tartaruga-Verde/Tartaruga-Verde(6).webp";
+import verdeImg6 from "@/assets/img/Tartaruga-Verde/Tartaruga-Verde(4).jpg";
+import verdeImg7 from "@/assets/img/Tartaruga-Verde/Tartaruga-Verde(2).jpg";
 
 const TartarugaVerde = () => {
   const navigate = useNavigate();

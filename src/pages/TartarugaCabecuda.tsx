@@ -4,13 +4,13 @@ import { ArrowLeft, MapPin, Calendar, Shield } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
 // Import images
-import cabecudaImg1 from "@/assets/img/Tartaruga-Cabecuda/Tartaruga-Cabecuda(1).jpg";
-import cabecudaImg2 from "@/assets/img/Tartaruga-Cabecuda/Tartaruga-Cabecuda(2).webp";
-import cabecudaImg3 from "@/assets/img/Tartaruga-Cabecuda/Tartaruga-Cabecuda(3).jpg";
-import cabecudaImg4 from "@/assets/img/Tartaruga-Cabecuda/Tartaruga-Cabecuda(4).jpg";
-import cabecudaImg5 from "@/assets/img/Tartaruga-Cabecuda/Tartaruga-Cabecuda(5).jpg";
-import cabecudaImg6 from "@/assets/img/Tartaruga-Cabecuda/Tartaruga-Cabecuda(6).jpg";
-import cabecudaImg7 from "@/assets/img/Tartaruga-Cabecuda/Tartaruga-Cabecuda(7).jpg";
+import cabecudaImg1 from "@/assets/img/Tartaruga-Cabecuda/closeup-shot-beautiful-turtle-swimming-sea.jpg";
+import cabecudaImg2 from "@/assets/img/Tartaruga-Cabecuda/Tartaruga-Cabecuda(1).jpg";
+import cabecudaImg3 from "@/assets/img/Tartaruga-Cabecuda/Caretta_caretta_(AM_LH3051-1).jpg";
+import cabecudaImg4 from "@/assets/img/Tartaruga-Cabecuda/640px-Loggerhead_Sea_Turtle_(Caretta_caretta)_2.jpg";
+import cabecudaImg5 from "@/assets/img/Tartaruga-Cabecuda/My_Public_Lands_Magazine,_Spring_2015_(16442811919).jpg";
+import cabecudaImg6 from "@/assets/img/Tartaruga-Cabecuda/Tartaruga-Cabecuda(3).jpg";
+import cabecudaImg7 from "@/assets/img/Tartaruga-Cabecuda/Tartaruga-Cabecuda(4).jpg";
 
 const TartarugaCabecuda = () => {
   const navigate = useNavigate();
