@@ -14,7 +14,8 @@ const SpeciesSection = () => {
       description: "A maior das tartarugas marinhas encontradas no Brasil, conhecida por sua dieta herbívora quando adulta. Seus filhotes são onívoros, mas migram para uma dieta baseada em algas marinhas e gramíneas.",
       habitat: "Águas costeiras tropicais e subtropicais",
       status: "Vulnerável",
-      route: "/tartaruga-verde"
+      route: "/tartaruga-verde",
+      imageUrl: require("@/assets/img/Tartaruga-Verde/Tartaruga-Verde(5).jpg")
     },
     {
       id: 2,
@@ -23,7 +24,8 @@ const SpeciesSection = () => {
       description: "Reconhecida por sua grande cabeça e mandíbulas poderosas, adaptadas para quebrar crustáceos e moluscos. É uma das espécies mais comuns nas costas brasileiras.",
       habitat: "Águas oceânicas e costeiras",
       status: "Vulnerável",
-      route: "/tartaruga-cabecuda"
+      route: "/tartaruga-cabecuda",
+      imageUrl: require("@/assets/img/Tartaruga-Cabecuda/closeup-shot-beautiful-turtle-swimming-sea.jpg")
     },
     {
       id: 3,
@@ -32,7 +34,8 @@ const SpeciesSection = () => {
       description: "Famosa por seu casco belamente padronizado que foi historicamente usado para fazer pentes e ornamentos. Possui bico afiado ideal para se alimentar de esponjas marinhas.",
       habitat: "Recifes de coral e águas tropicais",
       status: "Criticamente ameaçada",
-      route: "/tartaruga-de-pente"
+      route: "/tartaruga-de-pente",
+      imageUrl: require("@/assets/img/Tartaruga-de-Pente/Eretmochelys_imbricata_485863712.jpg")
     },
     {
       id: 4,
@@ -41,7 +44,8 @@ const SpeciesSection = () => {
       description: "A menor das tartarugas marinhas brasileiras, conhecida por suas desovas sincronizadas em massa. Possui coloração olivácea característica.",
       habitat: "Águas oceânicas tropicais",
       status: "Vulnerável",
-      route: "/tartaruga-oliva"
+      route: "/tartaruga-oliva",
+      imageUrl: require("@/assets/img/Tartaruga-Olivia/Lepidochelys-olivacea-Kélonia-1.jpg")
     },
     {
       id: 5,
@@ -50,7 +54,8 @@ const SpeciesSection = () => {
       description: "A maior tartaruga marinha do mundo, distinguida por não possuir casco rígido, mas sim uma carapaça coriácea. Especialista em alimentar-se de águas-vivas.",
       habitat: "Oceanos profundos e águas costeiras",
       status: "Vulnerável",
-      route: "/tartaruga-de-couro"
+      route: "/tartaruga-de-couro",
+      imageUrl: require("@/assets/img/Tartaruga-de-Couro/640px-Close_up_of_dermochelys_coriacea_leatherback_turtle.jpg")
     }
   ];
 

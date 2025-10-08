@@ -55,7 +55,7 @@ const TartarugaCabecuda = () => {
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-foreground font-medium">Vulnerável</p>
+                <p className="text-foreground">Ameaçada</p>
               </CardContent>
             </Card>
 
@@ -63,11 +63,11 @@ const TartarugaCabecuda = () => {
               <CardHeader className="pb-3">
                 <CardTitle className="flex items-center gap-2 text-primary">
                   <MapPin className="w-5 h-5" />
-                  Habitat
+                  Ocorrência
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-foreground">Águas oceânicas e costeiras</p>
+                <p className="text-foreground">Tropical e subtropical</p>
               </CardContent>
             </Card>
 
@@ -298,23 +298,13 @@ proteção ambiental no litoral da Bahia e Sergipe, e o Parque Nacional Marinho 
               </CardHeader>
               <CardContent>
                 <p className="text-foreground/80 leading-relaxed">
-             A tartaruga-cabeçuda (Caretta caretta) é uma das espécies mais emblemáticas dos mares
-tropicais e subtropicais, facilmente identificada por sua cabeça volumosa e poderosa. Sua
-dieta carnívora e força mandibular a tornam essencial para o equilíbrio das cadeias
-alimentares marinhas, especialmente no controle de invertebrados bentônicos. No Brasil,
-concentra grandes colônias de reprodução no litoral do Espírito Santo e Rio de Janeiro, mas
-percorre extensas rotas migratórias. Apesar de protegida por lei, enfrenta sérias ameaças,
-principalmente a pesca incidental e a perda de habitat. Programas como o Projeto TAMAR
-desempenham papel fundamental em sua preservação, mas o sucesso a longo prazo
-dependerá da redução efetiva das capturas acidentais, da conservação das praias de
-desova e da cooperação entre países que compartilham as águas frequentadas por essa
-resistente viajante dos oceanos.
+                  Concentra grandes colônias de reprodução no litoral do Espírito Santo e Rio de Janeiro, mas percorre extensas rotas migratórias. Apesar de protegida por lei, enfrenta sérias ameaças, principalmente a pesca incidental e a perda de habitat. Programas como o Projeto TAMAR desempenham papel fundamental em sua preservação, mas o sucesso a longo prazo depende do engajamento contínuo da sociedade e de políticas públicas eficazes.
                 </p>
               </CardContent>
             </Card>
-          </div>
-        </div>
-      </div>
+          </div> {/* Fim do .space-y-8 */}
+        </div> {/* Fim do .max-w-4xl mx-auto */}
+      </div> {/* Fim do .container */}
     </main>
   );
 };

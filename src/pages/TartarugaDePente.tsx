@@ -283,12 +283,6 @@ const TartarugaDePente = () => {
                 <p className="text-foreground/80 leading-relaxed">
                   <strong>Educação e conscientização:</strong> Trabalho direto com comunidades pesqueiras e programas de turismo sustentável. Consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam.
                 </p>
-                <div className="aspect-video bg-muted rounded-lg flex items-center justify-center">
-                  <div className="text-center text-muted-foreground">
-                    <div className="text-6xl mb-2">🛡️</div>
-                    <p>Esforços de conservação</p>
-                  </div>
-                </div>
               </CardContent>
             </Card>
 

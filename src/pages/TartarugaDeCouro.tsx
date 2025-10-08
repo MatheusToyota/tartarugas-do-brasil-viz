@@ -231,12 +231,6 @@ const TartarugaDeCouro = () => {
                 <p className="text-foreground/80 leading-relaxed">
                   Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
                 </p>
-                <div className="aspect-video bg-muted rounded-lg flex items-center justify-center">
-                  <div className="text-center text-muted-foreground">
-                    <div className="text-6xl mb-2">🛡️</div>
-                    <p>Esforços de conservação</p>
-                  </div>
-                </div>
               </CardContent>
             </Card>
 

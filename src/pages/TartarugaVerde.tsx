@@ -256,12 +256,6 @@ const TartarugaVerde = () => {
                 <p className="text-foreground/80 leading-relaxed">
                   <strong>Áreas protegidas:</strong> Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
                 </p>
-                <div className="aspect-video bg-muted rounded-lg flex items-center justify-center mb-4">
-                  <div className="text-center text-muted-foreground">
-                    <div className="text-6xl mb-2">🛡️</div>
-                    <p>Esforços de conservação</p>
-                  </div>
-                </div>
               </CardContent>
             </Card>
 
