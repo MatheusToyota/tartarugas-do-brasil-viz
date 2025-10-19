@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { useNavigate } from "react-router-dom";
+import { useState } from "react";
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -8,10 +9,19 @@ import {
   NavigationMenuList,
   NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu";
+import {
+  Sheet,
+  SheetContent,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet";
 import { cn } from "@/lib/utils";
+import { Menu } from "lucide-react";
 
 const Header = () => {
   const navigate = useNavigate();
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
     <header className="bg-gradient-ocean shadow-elegant sticky top-0 z-50">
@@ -90,21 +100,80 @@ const Header = () => {
             </Button>
           </nav>
 
-          {/* Mobile Menu Button */}
-          <Button
-            variant="ghost"
-            size="sm"
-            className="md:hidden text-primary-foreground hover:bg-primary-light/20"
-          >
-            <svg
-              className="w-6 h-6"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path d="M4 6h16M4 12h16M4 18h16" />
-            </svg>
-          </Button>
+          {/* Mobile Menu */}
+          <Sheet open={mobileMenuOpen} onOpenChange={setMobileMenuOpen}>
+            <SheetTrigger asChild>
+              <Button
+                variant="ghost"
+                size="sm"
+                className="md:hidden text-primary-foreground hover:bg-primary-light/20"
+              >
+                <Menu className="w-6 h-6" />
+              </Button>
+            </SheetTrigger>
+            <SheetContent side="right" className="w-[280px]">
+              <SheetHeader>
+                <SheetTitle>Menu</SheetTitle>
+              </SheetHeader>
+              <nav className="flex flex-col space-y-4 mt-6">
+                <Button
+                  variant="ghost"
+                  className="justify-start"
+                  onClick={() => {
+                    navigate("/");
+                    setMobileMenuOpen(false);
+                  }}
+                >
+                  Início
+                </Button>
+                
+                <div className="space-y-2">
+                  <p className="text-sm font-medium px-4 text-muted-foreground">Espécies</p>
+                  {[
+                    { name: "Tartaruga-verde", route: "/tartaruga-verde" },
+                    { name: "Tartaruga-cabeçuda", route: "/tartaruga-cabecuda" },
+                    { name: "Tartaruga-de-pente", route: "/tartaruga-de-pente" },
+                    { name: "Tartaruga-oliva", route: "/tartaruga-oliva" },
+                    { name: "Tartaruga-de-couro", route: "/tartaruga-de-couro" },
+                  ].map((species) => (
+                    <Button
+                      key={species.route}
+                      variant="ghost"
+                      className="justify-start w-full"
+                      onClick={() => {
+                        navigate(species.route);
+                        setMobileMenuOpen(false);
+                      }}
+                    >
+                      {species.name}
+                    </Button>
+                  ))}
+                </div>
+                
+                <Button
+                  variant="ghost"
+                  className="justify-start"
+                  onClick={() => {
+                    navigate("/conservacao");
+                    setMobileMenuOpen(false);
+                  }}
+                >
+                  Conservação
+                </Button>
+                
+                <Button
+                  variant="ghost"
+                  className="justify-start"
+                  onClick={() => {
+                    navigate("/sobre");
+                    setMobileMenuOpen(false);
+                  }}
+                >
+                  Sobre
+                </Button>
+              </nav>
+            </SheetContent>
+          </Sheet>
         </div>
       </div>
     </header>
