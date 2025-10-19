@@ -98,11 +98,12 @@ const TartarugaDeCouro = () => {
                       <strong>Nomes populares:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
                   </div>
-                  <div className="aspect-square bg-muted rounded-lg flex items-center justify-center">
-                    <div className="text-center text-muted-foreground">
-                      <div className="text-4xl mb-2">📷</div>
-                      <p className="text-sm">Imagem de classificação</p>
-                    </div>
+                  <div className="aspect-square bg-muted rounded-lg flex items-center justify-center overflow-hidden">
+                    <img
+                      src={couroImg2}
+                      alt="Classificação tartaruga-de-couro"
+                      className="object-cover w-full h-full rounded-lg"
+                    />
                   </div>
                 </div>
                 <p className="text-foreground/80 leading-relaxed">
@@ -125,11 +126,12 @@ const TartarugaDeCouro = () => {
                       <strong>Carapaça coriácea:</strong> Não possui casco rígido, mas sim uma carapaça coriácea. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.
                     </p>
                   </div>
-                  <div className="aspect-square bg-muted rounded-lg flex items-center justify-center">
-                    <div className="text-center text-muted-foreground">
-                      <div className="text-4xl mb-2">📷</div>
-                      <p className="text-sm">Características físicas</p>
-                    </div>
+                  <div className="aspect-square bg-muted rounded-lg flex items-center justify-center overflow-hidden">
+                    <img
+                      src={couroImg3}
+                      alt="Características físicas tartaruga-de-couro"
+                      className="object-cover w-full h-full rounded-lg"
+                    />
                   </div>
                 </div>
                 <p className="text-foreground/80 leading-relaxed">
@@ -143,11 +145,12 @@ const TartarugaDeCouro = () => {
                 <CardTitle className="text-2xl text-primary">3. Distribuição e Hábitat</CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
-                <div className="aspect-video bg-muted rounded-lg flex items-center justify-center mb-4">
-                  <div className="text-center text-muted-foreground">
-                    <div className="text-6xl mb-2">🗺️</div>
-                    <p>Mapa de distribuição</p>
-                  </div>
+                <div className="aspect-video bg-muted rounded-lg flex items-center justify-center mb-4 overflow-hidden">
+                  <img
+                    src={couroImg4}
+                    alt="Distribuição tartaruga-de-couro"
+                    className="object-cover w-full h-full rounded-lg"
+                  />
                 </div>
                 <p className="text-foreground/80 leading-relaxed">
                   <strong>Distribuição cosmopolita:</strong> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate.
@@ -169,11 +172,12 @@ const TartarugaDeCouro = () => {
                       <strong>Especialista em águas-vivas:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
                   </div>
-                  <div className="aspect-square bg-muted rounded-lg flex items-center justify-center">
-                    <div className="text-center text-muted-foreground">
-                      <div className="text-4xl mb-2">🪼</div>
-                      <p className="text-sm">Alimentação</p>
-                    </div>
+                  <div className="aspect-square bg-muted rounded-lg flex items-center justify-center overflow-hidden">
+                    <img
+                      src={couroImg5}
+                      alt="Alimentação tartaruga-de-couro"
+                      className="object-cover w-full h-full rounded-lg"
+                    />
                   </div>
                 </div>
                 <p className="text-foreground/80 leading-relaxed">
@@ -187,11 +191,12 @@ const TartarugaDeCouro = () => {
                 <CardTitle className="text-2xl text-primary">5. Reprodução e Ciclo de Vida</CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
-                <div className="aspect-video bg-muted rounded-lg flex items-center justify-center mb-4">
-                  <div className="text-center text-muted-foreground">
-                    <div className="text-6xl mb-2">🥚</div>
-                    <p>Processo reprodutivo</p>
-                  </div>
+                <div className="aspect-video bg-muted rounded-lg flex items-center justify-center mb-4 overflow-hidden">
+                  <img
+                    src={couroImg6}
+                    alt="Processo reprodutivo tartaruga-de-couro"
+                    className="object-cover w-full h-full rounded-lg"
+                  />
                 </div>
                 <p className="text-foreground/80 leading-relaxed">
                   Vel illum qui dolorem eum fugiat quo voluptas nulla pariatur. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.

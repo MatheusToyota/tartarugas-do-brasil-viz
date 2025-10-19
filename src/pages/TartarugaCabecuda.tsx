@@ -283,12 +283,6 @@ filhotes, além de campanhas educativas junto às comunidades.
 proteção ambiental no litoral da Bahia e Sergipe, e o Parque Nacional Marinho de Abrolhos
 (BA).
                 </p>
-                <div className="aspect-video bg-muted rounded-lg flex items-center justify-center">
-                  <div className="text-center text-muted-foreground">
-                    <div className="text-6xl mb-2">🛡️</div>
-                    <p>Esforços de conservação</p>
-                  </div>
-                </div>
               </CardContent>
             </Card>
 

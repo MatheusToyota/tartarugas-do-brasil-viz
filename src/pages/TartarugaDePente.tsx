@@ -99,11 +99,12 @@ const TartarugaDePente = () => {
                       <strong>Nomes populares:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
                   </div>
-                  <div className="aspect-square bg-muted rounded-lg flex items-center justify-center">
-                    <div className="text-center text-muted-foreground">
-                      <div className="text-4xl mb-2">📷</div>
-                      <p className="text-sm">Imagem de classificação</p>
-                    </div>
+                  <div className="aspect-square bg-muted rounded-lg flex items-center justify-center overflow-hidden">
+                    <img
+                      src={penteImg2}
+                      alt="Classificação tartaruga-de-pente"
+                      className="object-cover w-full h-full rounded-lg"
+                    />
                   </div>
                 </div>
                 <p className="text-foreground/80 leading-relaxed">
@@ -132,11 +133,12 @@ const TartarugaDePente = () => {
                       <strong>Nadadeiras:</strong> Sunt in culpa qui officia deserunt mollit anim id est laborum. Longas e adaptadas para natação eficiente, permitindo viagens de milhares de quilômetros.
                     </p>
                   </div>
-                  <div className="aspect-square bg-muted rounded-lg flex items-center justify-center">
-                    <div className="text-center text-muted-foreground">
-                      <div className="text-4xl mb-2">📷</div>
-                      <p className="text-sm">Características físicas</p>
-                    </div>
+                  <div className="aspect-square bg-muted rounded-lg flex items-center justify-center overflow-hidden">
+                    <img
+                      src={penteImg3}
+                      alt="Características físicas tartaruga-de-pente"
+                      className="object-cover w-full h-full rounded-lg"
+                    />
                   </div>
                 </div>
                 <p className="text-foreground/80 leading-relaxed">
@@ -153,11 +155,12 @@ const TartarugaDePente = () => {
                 <CardTitle className="text-2xl text-primary">3. Distribuição e Hábitat</CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
-                <div className="aspect-video bg-muted rounded-lg flex items-center justify-center mb-4">
-                  <div className="text-center text-muted-foreground">
-                    <div className="text-6xl mb-2">🗺️</div>
-                    <p>Mapa de distribuição</p>
-                  </div>
+                <div className="aspect-video bg-muted rounded-lg flex items-center justify-center mb-4 overflow-hidden">
+                  <img
+                    src={penteImg4}
+                    alt="Distribuição tartaruga-de-pente"
+                    className="object-cover w-full h-full rounded-lg"
+                  />
                 </div>
                 <p className="text-foreground/80 leading-relaxed">
                   <strong>Ocorrência global:</strong> Presente em mares tropicais e subtropicais de todo o planeta. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
@@ -185,11 +188,12 @@ const TartarugaDePente = () => {
                       <strong>Dieta especializada:</strong> Esponjas, crustáceos, moluscos, corais moles, ouriços-do-mar, briozoários e algumas algas. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     </p>
                   </div>
-                  <div className="aspect-square bg-muted rounded-lg flex items-center justify-center">
-                    <div className="text-center text-muted-foreground">
-                      <div className="text-4xl mb-2">🧽</div>
-                      <p className="text-sm">Alimentação</p>
-                    </div>
+                  <div className="aspect-square bg-muted rounded-lg flex items-center justify-center overflow-hidden">
+                    <img
+                      src={penteImg5}
+                      alt="Alimentação tartaruga-de-pente"
+                      className="object-cover w-full h-full rounded-lg"
+                    />
                   </div>
                 </div>
                 <p className="text-foreground/80 leading-relaxed">
@@ -206,11 +210,12 @@ const TartarugaDePente = () => {
                 <CardTitle className="text-2xl text-primary">5. Reprodução e Ciclo de Vida</CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
-                <div className="aspect-video bg-muted rounded-lg flex items-center justify-center mb-4">
-                  <div className="text-center text-muted-foreground">
-                    <div className="text-6xl mb-2">🥚</div>
-                    <p>Processo reprodutivo</p>
-                  </div>
+                <div className="aspect-video bg-muted rounded-lg flex items-center justify-center mb-4 overflow-hidden">
+                  <img
+                    src={penteImg6}
+                    alt="Processo reprodutivo tartaruga-de-pente"
+                    className="object-cover w-full h-full rounded-lg"
+                  />
                 </div>
                 <p className="text-foreground/80 leading-relaxed">
                   <strong>Locais de desova no Brasil:</strong> Litoral norte da Bahia, Sergipe e litoral sul do Rio Grande do Norte. Vel illum qui dolorem eum fugiat quo voluptas nulla pariatur. At vero eos et accusamus et iusto odio dignissimos ducimus.
@@ -250,11 +255,12 @@ const TartarugaDePente = () => {
                       <strong>Poluição marinha:</strong> Ingestão de plásticos e resíduos flutuantes. Itaque earum rerum hic tenetur a sapiente delectus.
                     </p>
                   </div>
-                  <div className="aspect-square bg-muted rounded-lg flex items-center justify-center">
-                    <div className="text-center text-muted-foreground">
-                      <div className="text-4xl mb-2">⚠️</div>
-                      <p className="text-sm">Principais ameaças</p>
-                    </div>
+                  <div className="aspect-square bg-muted rounded-lg flex items-center justify-center overflow-hidden">
+                    <img
+                      src={penteImg7}
+                      alt="Principais ameaças tartaruga-de-pente"
+                      className="object-cover w-full h-full rounded-lg"
+                    />
                   </div>
                 </div>
                 <p className="text-foreground/80 leading-relaxed">
