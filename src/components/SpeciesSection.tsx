@@ -89,6 +89,7 @@ const SpeciesSection = () => {
                 description={turtle.description}
                 habitat={turtle.habitat}
                 status={turtle.status}
+                imageUrl={turtle.imageUrl}
                 onLearnMore={() => handleLearnMore(turtle.route)}
               />
             </div>
