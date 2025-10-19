@@ -1,3 +1,5 @@
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+
 const Conservacao = () => {
   const conservationTopics = [
     {
@@ -65,4 +67,3 @@ const Conservacao = () => {
 };
 
 export default Conservacao;
-```
