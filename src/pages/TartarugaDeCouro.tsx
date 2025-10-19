@@ -218,12 +218,13 @@ const TartarugaDeCouro = () => {
                       <strong>Ingestão de plásticos:</strong> Confunde sacos plásticos com águas-vivas. Ut et voluptates repudiandae sint et molestiae non recusandae.
                     </p>
                   </div>
-                  <div className="aspect-square bg-muted rounded-lg flex items-center justify-center">
-                    <div className="text-center text-muted-foreground">
-                      <div className="text-4xl mb-2">⚠️</div>
-                      <p className="text-sm">Principais ameaças</p>
-                    </div>
-                  </div>
+                  <div className="aspect-video bg-muted rounded-lg flex items-center justify-center mb-4 overflow-hidden">
+                  <img
+                    src={couroImg1}
+                    alt="Processo reprodutivo tartaruga-de-couro"
+                    className="object-cover w-full h-full rounded-lg"
+                  />
+                </div>
                 </div>
               </CardContent>
             </Card>
