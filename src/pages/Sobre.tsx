@@ -36,7 +36,7 @@ const Sobre = () => {
               <div>
                 <h2 className="text-2xl font-bold text-foreground mb-3">Entre em Contato</h2>
                 <p className="text-muted-foreground leading-relaxed">
-                  Email: teste@address.com
+                  Email: avaliacaotartamar@gmail.com
                 </p>
               </div>
             </CardContent>
