@@ -4,7 +4,7 @@ import { ArrowLeft, MapPin, Calendar, Shield } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
 // Import images
-import olivaImg1 from "@/assets/img/Tartaruga-Olivia/Lepidochelys-olivacea-Kélonia-1.jpg";
+import olivaImg1 from "@/assets/img/Tartaruga-Olivia/Tartaruga-Olivia(1).jpg";
 import olivaImg2 from "@/assets/img/Tartaruga-Olivia/Tartaruga-Olivia(1).jpg";
 import olivaImg3 from "@/assets/img/Tartaruga-Olivia/ANI080-00517-1920x1278.jpg";
 import olivaImg4 from "@/assets/img/Tartaruga-Olivia/1.jpg";

@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 import tartarugaVerdeImg from "@/assets/img/Tartaruga-Verde/Tartaruga-Verde(5).jpg";
 import tartarugaCabecudaImg from "@/assets/img/Tartaruga-Cabecuda/closeup-shot-beautiful-turtle-swimming-sea.jpg";
 import tartarugaDePenteImg from "@/assets/img/Tartaruga-de-Pente/Eretmochelys_imbricata_485863712.jpg";
-import tartarugaOlivaImg from "@/assets/img/Tartaruga-Olivia/Lepidochelys-olivacea-Kélonia-1.jpg";
+import tartarugaOlivaImg from "@/assets/img/Tartaruga-Olivia/Tartaruga-Olivia(1).jpg";
 import tartarugaDeCouroImg from "@/assets/img/Tartaruga-de-Couro/640px-Close_up_of_dermochelys_coriacea_leatherback_turtle.jpg";
 
 const SpeciesSection = () => {
@@ -69,7 +69,7 @@ const SpeciesSection = () => {
   };
 
   return (
-    <section className="py-16 px-6 bg-background">
+    <section id="especies-section" className="py-16 px-6 bg-background">
       <div className="container mx-auto">
         <div className="text-center mb-12 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">

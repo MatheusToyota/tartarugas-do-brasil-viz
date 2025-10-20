@@ -1,6 +1,9 @@
 import { Button } from "@/components/ui/button";
+import { useNavigate } from "react-router-dom";
 
 const HeroSection = () => {
+  const navigate = useNavigate();
+  
   return (
     <section className="bg-gradient-subtle py-20 px-6">
       <div className="container mx-auto text-center max-w-4xl">
@@ -19,6 +22,10 @@ const HeroSection = () => {
               variant="ocean"
               size="lg"
               className="px-8 py-6 text-lg"
+              onClick={() => {
+                const speciesSection = document.querySelector('#especies-section');
+                speciesSection?.scrollIntoView({ behavior: 'smooth' });
+              }}
             >
               Explorar Espécies
             </Button>
@@ -27,6 +34,7 @@ const HeroSection = () => {
               variant="outline" 
               size="lg"
               className="border-primary text-primary hover:bg-primary hover:text-primary-foreground hover-scale px-8 py-6 text-lg"
+              onClick={() => navigate('/conservacao')}
             >
               Sobre a Conservação
             </Button>
