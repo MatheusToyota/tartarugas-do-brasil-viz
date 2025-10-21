@@ -95,7 +95,7 @@ const TartarugaDeCouro = () => {
                     <p className="text-foreground/80 leading-relaxed">
                       <strong>Nome científico:</strong> Dermochelys coriacea<br/>
                       <strong>Família:</strong> Dermochelyidae<br/>
-                      <strong>Nomes populares:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                      <strong>Nomes populares:</strong> Nomes populares no Brasil: tartaruga-de-couro, tartaruga-gigante, tartaruga-de-pescoço-peludo.
                     </p>
                   </div>
                   <div className="aspect-square bg-muted rounded-lg flex items-center justify-center overflow-hidden">
@@ -107,7 +107,7 @@ const TartarugaDeCouro = () => {
                   </div>
                 </div>
                 <p className="text-foreground/80 leading-relaxed">
-                  A maior tartaruga marinha do mundo, distinguida por não possuir casco rígido. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                  A tartaruga-de-couro é a maior e mais pesada entre as tartarugas marinhas, reconhecida pela sua carapaça flexível e coriácea, que se assemelha a couro — daí seu nome. É uma espécie altamente migratória, capaz de atravessar oceanos e habitar águas tropicais, temperadas e até frias.
                 </p>
               </CardContent>
             </Card>
@@ -246,7 +246,7 @@ const TartarugaDeCouro = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-foreground/80 leading-relaxed">
-                  A maior tartaruga marinha do mundo, especialista em águas-vivas e viajante dos oceanos profundos. Sed ut non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.
+                  A tartaruga-de-couro (Dermochelys coriacea) é a maior das tartarugas marinhas e uma espécie singular por sua carapaça flexível e adaptações para a vida pelágica. Espalhada por oceanos tropicais e temperados, sua alimentação baseada em medusas é vital para o equilíbrio marinho. No Brasil, enfrenta ameaças graves como pesca incidental, poluição e perda de habitat, apesar de ser protegida por legislação e projetos como o TAMAR. A conservação dessa gigante dos mares depende de esforços contínuos em pesquisa, proteção de áreas de desova e conscientização para garantir sua sobrevivência e o equilíbrio dos ecossistemas oceânicos.
                 </p>
               </CardContent>
             </Card>

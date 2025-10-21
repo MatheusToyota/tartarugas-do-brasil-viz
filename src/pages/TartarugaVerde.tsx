@@ -96,7 +96,7 @@ const TartarugaVerde = () => {
                     <p className="text-foreground/80 leading-relaxed">
                       <strong>Nome científico:</strong> Chelonia mydas<br/>
                       <strong>Família:</strong> Cheloniidae<br/>
-                      <strong>Nomes populares:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                      <strong>Nomes populares:</strong> Nomes populares no Brasil: tartaruga-verde, tartaruga-do-mar, tartaruga-aruanã, depéia, jereba, suçuarana, tartaruga-pedrês e aruanã.
                     </p>
                   </div>
                   <div className="aspect-square bg-muted rounded-lg flex items-center justify-center">
@@ -108,7 +108,7 @@ const TartarugaVerde = () => {
                   </div>
                 </div>
                 <p className="text-foreground/80 leading-relaxed">
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+                  A tartaruga-verde é uma das maiores tartarugas marinhas do mundo e destaca-se por sua dieta predominantemente herbívora na fase adulta, algo raro entre répteis marinhos. Recebe o nome "verde" não pela cor da carapaça, mas pela coloração esverdeada da gordura corporal, resultado de sua alimentação rica em algas e fanerógamas marinhas.
                 </p>
               </CardContent>
             </Card>
@@ -121,10 +121,10 @@ const TartarugaVerde = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="space-y-4">
                     <p className="text-foreground/80 leading-relaxed">
-                      <strong>Tamanho e peso:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+                      <strong>Tamanho e peso:</strong> Adultos atingem de 80 cm a 1,2 metro de comprimento de carapaça e podem pesar entre 150 e 230 kg, tornando-se a segunda maior espécie de tartaruga marinha, atrás apenas da tartaruga-de-couro (Dermochelys coriacea).
                     </p>
                     <p className="text-foreground/80 leading-relaxed">
-                      <strong>Formato da carapaça:</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+                      <strong>Formato da carapaça:</strong> Oval e relativamente lisa, com coloração que varia entre tons de marrom, verde e preto, apresentando padrões marmorizados.
                     </p>
                   </div>
                   <div className="aspect-square bg-muted rounded-lg flex items-center justify-center">
@@ -136,7 +136,7 @@ const TartarugaVerde = () => {
                   </div>
                 </div>
                 <p className="text-foreground/80 leading-relaxed">
-                  Sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur.
+                  <strong>Nadadeiras:</strong> Alongadas, permitindo natação eficiente e migrações transoceânicas. <strong>Glândulas de sal:</strong> Assim como outras espécies marinhas, possui glândulas especializadas próximas aos olhos para eliminar o excesso de sal ingerido. <strong>Longevidade:</strong> Pode viver 80 anos ou mais, com maturidade sexual alcançada entre 20 e 50 anos, dependendo das condições ambientais e alimentares.
                 </p>
               </CardContent>
             </Card>
@@ -154,13 +154,13 @@ const TartarugaVerde = () => {
                   />
                 </div>
                 <p className="text-foreground/80 leading-relaxed">
-                  <strong>Ocorrência global:</strong> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
+                  <strong>Ocorrência global:</strong> Presente em mares tropicais e subtropicais de todos os oceanos, incluindo áreas costeiras e oceânicas.
                 </p>
                 <p className="text-foreground/80 leading-relaxed">
-                  <strong>No Brasil:</strong> Similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus.
+                  <strong>No Brasil:</strong> Registros em toda a costa, mas as principais áreas de alimentação e reprodução incluem o Atol das Rocas, Fernando de Noronha e a Ilha de Trindade. Também é observada em estuários e áreas de recifes costeiros.
                 </p>
                 <p className="text-foreground/80 leading-relaxed">
-                  <strong>Migrações:</strong> Id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
+                  <strong>Migração:</strong> Extremamente migratória; já foram registradas fêmeas marcadas no Brasil que viajaram até o Senegal e juvenis recapturados na Nicarágua e em Trinidad e Tobago.
                 </p>
               </CardContent>
             </Card>
@@ -173,10 +173,10 @@ const TartarugaVerde = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
                     <p className="text-foreground/80 leading-relaxed mb-4">
-                      Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.
+                      A tartaruga-verde é uma das poucas tartarugas marinhas que passam de uma dieta carnívora, quando jovens, para uma dieta estritamente herbívora na fase adulta.
                     </p>
                     <p className="text-foreground/80 leading-relaxed">
-                      <strong>Dieta especializada:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                      <strong>Dieta:</strong> Juvenis: Consomem invertebrados marinhos como águas-vivas, pequenos crustáceos e moluscos, além de algas. Adultos: Alimentam-se principalmente de macroalgas e fanerógamas marinhas (plantas submersas como a grama-do-mar).
                     </p>
                   </div>
                   <div className="aspect-square bg-muted rounded-lg flex items-center justify-center">
@@ -188,7 +188,7 @@ const TartarugaVerde = () => {
                   </div>
                 </div>
                 <p className="text-foreground/80 leading-relaxed">
-                  <strong>Função ecológica:</strong> Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.
+                  <strong>Importância ecológica:</strong> Ao se alimentar de vegetação marinha, mantém as pradarias submersas aparadas, favorecendo a oxigenação, o crescimento saudável e a biodiversidade desses ecossistemas.
                 </p>
               </CardContent>
             </Card>
@@ -206,13 +206,13 @@ const TartarugaVerde = () => {
                   />
                 </div>
                 <p className="text-foreground/80 leading-relaxed">
-                  <strong>Locais de desova:</strong> Vel illum qui dolorem eum fugiat quo voluptas nulla pariatur. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.
+                  <strong>Áreas de desova no Brasil:</strong> Atol das Rocas (RN), Fernando de Noronha (PE) e Ilha da Trindade (ES) são as principais, embora alguns registros ocorram também no continente.
                 </p>
                 <p className="text-foreground/80 leading-relaxed">
-                  <strong>Temporada reprodutiva:</strong> Et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
+                  <strong>Temporada:</strong> Em ilhas oceânicas, de dezembro a junho; no continente, de setembro a abril. <strong>Ciclo reprodutivo:</strong> As fêmeas retornam sempre à praia onde nasceram (natal filopatria) para desovar. Cada fêmea pode realizar de 3 a 6 posturas por temporada, com intervalos de cerca de 2 a 3 anos entre as temporadas de reprodução.
                 </p>
                 <p className="text-foreground/80 leading-relaxed">
-                  <strong>Incubação:</strong> Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.
+                  <strong>Ninhos e incubação:</strong> Contêm em média de 100 a 120 ovos, com incubação de aproximadamente 60 dias. A temperatura da areia define o sexo dos filhotes; areias mais quentes produzem mais fêmeas e mais frias, mais machos.
                 </p>
               </CardContent>
             </Card>
@@ -225,10 +225,10 @@ const TartarugaVerde = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="space-y-4">
                     <p className="text-foreground/80 leading-relaxed">
-                      <strong>Pesca incidental:</strong> Omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet.
+                      <strong>Pesca incidental:</strong> Uma das principais causas de mortalidade, devido à captura acidental em redes de pesca e espinhéis.
                     </p>
                     <p className="text-foreground/80 leading-relaxed">
-                      <strong>Perda de habitat:</strong> Ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus.
+                      <strong>Perda de habitat:</strong> Degradação de áreas de desova e de alimentação devido à urbanização e destruição de pradarias marinhas. <strong>Doenças:</strong> Alta vulnerabilidade à fibropapilomatose, doença viral que provoca tumores e pode levar à morte.
                     </p>
                   </div>
                   <div className="aspect-square bg-muted rounded-lg flex items-center justify-center">
@@ -240,7 +240,7 @@ const TartarugaVerde = () => {
                   </div>
                 </div>
                 <p className="text-foreground/80 leading-relaxed">
-                  <strong>Poluição marinha:</strong> Ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+                  <strong>Poluição e mudanças climáticas:</strong> Ingestão de plásticos, redes abandonadas (ghost nets) e exposição a poluentes químicos. Mudanças climáticas afetam diretamente a proporção sexual e a qualidade das praias de reprodução.
                 </p>
               </CardContent>
             </Card>
@@ -251,10 +251,10 @@ const TartarugaVerde = () => {
               </CardHeader>
               <CardContent className="space-y-4">
                 <p className="text-foreground/80 leading-relaxed">
-                  <strong>Projetos ativos:</strong> Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+                  <strong>Projeto TAMAR-ICMBio:</strong> Atua na proteção de ninhos, monitoramento populacional, resgate de animais e conscientização de comunidades costeiras. <strong>Áreas protegidas:</strong> Atol das Rocas, Fernando de Noronha, Ilha da Trindade, Parque Nacional Marinho de Abrolhos e diversas reservas biológicas e estações ecológicas costeiras.
                 </p>
                 <p className="text-foreground/80 leading-relaxed">
-                  <strong>Áreas protegidas:</strong> Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+                  <strong>Medidas de manejo:</strong> Uso de Dispositivos Excludentes de Tartarugas (TEDs) na pesca de arrasto, restrições à pesca em áreas críticas, preservação de pradarias marinhas e controle da poluição costeira. Participação comunitária: Incentivo ao turismo sustentável e ao envolvimento das comunidades locais na conservação.
                 </p>
               </CardContent>
             </Card>
@@ -265,7 +265,7 @@ const TartarugaVerde = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-foreground/80 leading-relaxed">
-                  Sed ut non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
+                  A tartaruga-verde (Chelonia mydas) é um símbolo de resistência e equilíbrio nos mares tropicais. Sua mudança de dieta ao longo da vida, de carnívora na juventude a herbívora na fase adulta, faz dela uma espécie-chave na manutenção das pradarias marinhas, ecossistemas vitais para a biodiversidade costeira. No Brasil, concentra suas áreas de reprodução nas ilhas oceânicas e percorre longas distâncias migratórias, conectando o Atlântico Sul a regiões distantes. Apesar de protegida por lei, enfrenta sérias ameaças, como a pesca incidental, poluição e doenças. A ação integrada de conservação, liderada por iniciativas como o Projeto TAMAR, é essencial para garantir que essa gigante herbívora continue a desempenhar seu papel ecológico por muitas gerações, mantendo vivos os ecossistemas que sustenta.
                 </p>
               </CardContent>
             </Card>

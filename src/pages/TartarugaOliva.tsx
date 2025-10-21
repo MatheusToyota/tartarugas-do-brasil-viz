@@ -96,7 +96,7 @@ const TartarugaOliva = () => {
                     <p className="text-foreground/80 leading-relaxed">
                       <strong>Nome científico:</strong> Lepidochelys olivacea<br/>
                       <strong>Família:</strong> Cheloniidae<br/>
-                      <strong>Nomes populares:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                      <strong>Nomes populares:</strong> Nomes populares no Brasil: tartaruga-de-oliva, tartaruga-pequena, tartaruga-comum, xibirro.
                     </p>
                   </div>
                   <div className="aspect-square bg-muted rounded-lg flex items-center justify-center">
@@ -108,7 +108,7 @@ const TartarugaOliva = () => {
                   </div>
                 </div>
                 <p className="text-foreground/80 leading-relaxed">
-                  A menor das tartarugas marinhas brasileiras, conhecida por suas desovas sincronizadas em massa. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                  A tartaruga-de-oliva é a menor entre as tartarugas marinhas, mas é famosa pelo fenômeno único das "arribadas" — eventos de desova em massa que podem reunir milhares de fêmeas na mesma praia, de forma sincronizada, em poucos dias. No Brasil, essa espécie tem como principal área de reprodução o litoral de Sergipe, sendo de extrema importância para a conservação regional.
                 </p>
               </CardContent>
             </Card>

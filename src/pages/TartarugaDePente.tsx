@@ -96,7 +96,7 @@ const TartarugaDePente = () => {
                     <p className="text-foreground/80 leading-relaxed">
                       <strong>Nome científico:</strong> Eretmochelys imbricata<br/>
                       <strong>Família:</strong> Cheloniidae<br/>
-                      <strong>Nomes populares:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                      <strong>Nomes populares:</strong> Nomes populares no Brasil: tartaruga-de-pente, tartaruga-legítima, tartaruga-verdadeira.
                     </p>
                   </div>
                   <div className="aspect-square bg-muted rounded-lg flex items-center justify-center overflow-hidden">
@@ -108,10 +108,10 @@ const TartarugaDePente = () => {
                   </div>
                 </div>
                 <p className="text-foreground/80 leading-relaxed">
-                  Estado de conservação: Criticamente em Perigo segundo a Lista Vermelha da IUCN. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  A tartaruga-de-pente é uma das espécies mais icônicas e reconhecíveis entre as tartarugas marinhas, em grande parte devido ao seu casco característico, composto por escamas sobrepostas que criam um padrão belo e único, muito valorizado historicamente para a confecção de pentes, joias, óculos e outros objetos ornamentais. Essa exploração intensa, somada a outras ameaças, levou a espécie a uma grave redução populacional ao longo do último século.
                 </p>
                 <p className="text-foreground/80 leading-relaxed">
-                  Proteção internacional: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.
+                  <strong>Proteção internacional:</strong> Apêndice I da CITES – Convenção sobre o Comércio Internacional de Espécies Ameaçadas da Fauna e Flora Selvagem, que proíbe seu comércio internacional.
                 </p>
               </CardContent>
             </Card>
@@ -124,13 +124,13 @@ const TartarugaDePente = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="space-y-4">
                     <p className="text-foreground/80 leading-relaxed">
-                      <strong>Tamanho e peso:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+                      <strong>Tamanho e peso:</strong> Adultos geralmente medem entre 70 e 90 cm de comprimento de carapaça e podem pesar de 60 a 80 kg, embora alguns indivíduos excepcionais ultrapassem esses valores.
                     </p>
                     <p className="text-foreground/80 leading-relaxed">
-                      <strong>Formato da carapaça:</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident. Alongada e ligeiramente serrilhada nas bordas posteriores.
+                      <strong>Formato da carapaça:</strong> Alongada e ligeiramente serrilhada nas bordas posteriores, com coloração variando entre tons de marrom, âmbar e dourado, formando mosaicos irregulares que ajudam na camuflagem nos recifes.
                     </p>
                     <p className="text-foreground/80 leading-relaxed">
-                      <strong>Nadadeiras:</strong> Sunt in culpa qui officia deserunt mollit anim id est laborum. Longas e adaptadas para natação eficiente, permitindo viagens de milhares de quilômetros.
+                      <strong>Nadadeiras:</strong> Longas e adaptadas para natação eficiente, permitindo viagens de milhares de quilômetros entre áreas de alimentação e reprodução.
                     </p>
                   </div>
                   <div className="aspect-square bg-muted rounded-lg flex items-center justify-center overflow-hidden">
@@ -142,10 +142,10 @@ const TartarugaDePente = () => {
                   </div>
                 </div>
                 <p className="text-foreground/80 leading-relaxed">
-                  <strong>Glândulas de sal:</strong> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+                  <strong>Glândulas de sal:</strong> Localizadas próximas aos olhos, eliminam o excesso de sal da água do mar. O líquido expelido, semelhante a lágrimas, é especialmente visível durante a desova.
                 </p>
                 <p className="text-foreground/80 leading-relaxed">
-                  <strong>Adaptabilidade:</strong> Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+                  <strong>Adaptabilidade:</strong> Essa espécie é considerada uma das mais especializadas ecologicamente, vivendo em estreita associação com recifes de coral, ambientes complexos e ricos em biodiversidade.
                 </p>
               </CardContent>
             </Card>
@@ -163,13 +163,13 @@ const TartarugaDePente = () => {
                   />
                 </div>
                 <p className="text-foreground/80 leading-relaxed">
-                  <strong>Ocorrência global:</strong> Presente em mares tropicais e subtropicais de todo o planeta. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
+                  <strong>Ocorrência global:</strong> Presente em mares tropicais e subtropicais de todo o planeta, com populações importantes no Oceano Atlântico, Índico e Pacífico.
                 </p>
                 <p className="text-foreground/80 leading-relaxed">
-                  <strong>No Brasil:</strong> É encontrada em praticamente todo o litoral, mas suas áreas mais importantes incluem o Atol das Rocas e Fernando de Noronha. Similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.
+                  <strong>No Brasil:</strong> É encontrada em praticamente todo o litoral, mas suas áreas mais importantes de alimentação e descanso incluem o Atol das Rocas (RN) e o arquipélago de Fernando de Noronha (PE). Também é registrada em regiões da Bahia, Sergipe e Rio Grande do Norte, especialmente durante a época de reprodução.
                 </p>
                 <p className="text-foreground/80 leading-relaxed">
-                  <strong>Migrações:</strong> Extremamente migratória, realiza deslocamentos significativos. Id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
+                  <strong>Migrações:</strong> Extremamente migratória, realiza deslocamentos significativos. Registros mostram juvenis marcados no Brasil que foram encontrados no Gabão e no Senegal, na África Ocidental. Estudos com telemetria também identificaram fêmeas migrando da Bahia até áreas de recifes no Ceará, percorrendo grandes distâncias no Atlântico Ocidental.
                 </p>
               </CardContent>
             </Card>
@@ -182,10 +182,10 @@ const TartarugaDePente = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
                     <p className="text-foreground/80 leading-relaxed mb-4">
-                      A tartaruga-de-pente é um predador especializado em esponjas marinhas. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+                      A tartaruga-de-pente é um predador especializado em esponjas marinhas, alimento pouco consumido por outros animais, o que lhe dá um papel ecológico muito importante na manutenção da saúde dos recifes de coral.
                     </p>
                     <p className="text-foreground/80 leading-relaxed">
-                      <strong>Dieta especializada:</strong> Esponjas, crustáceos, moluscos, corais moles, ouriços-do-mar, briozoários e algumas algas. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      <strong>Dieta de juvenis e adultos:</strong> Esponjas, crustáceos, moluscos, corais moles, ouriços-do-mar, briozoários e algumas algas.
                     </p>
                   </div>
                   <div className="aspect-square bg-muted rounded-lg flex items-center justify-center overflow-hidden">
@@ -197,10 +197,10 @@ const TartarugaDePente = () => {
                   </div>
                 </div>
                 <p className="text-foreground/80 leading-relaxed">
-                  <strong>Função ecológica:</strong> Ao controlar a população de esponjas, evita que elas dominem os recifes, permitindo o crescimento dos corais. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.
+                  <strong>Função ecológica:</strong> Ao controlar a população de esponjas, evita que elas dominem os recifes, permitindo o crescimento dos corais e o equilíbrio do ecossistema.
                 </p>
                 <p className="text-foreground/80 leading-relaxed">
-                  <strong>Interações tróficas:</strong> Atua como elo entre os recifes e o restante do ecossistema marinho. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.
+                  <strong>Interações tróficas:</strong> Atua como elo entre os recifes e o restante do ecossistema marinho, influenciando a distribuição de nutrientes e a diversidade biológica local.
                 </p>
               </CardContent>
             </Card>
@@ -218,22 +218,22 @@ const TartarugaDePente = () => {
                   />
                 </div>
                 <p className="text-foreground/80 leading-relaxed">
-                  <strong>Locais de desova no Brasil:</strong> Litoral norte da Bahia, Sergipe e litoral sul do Rio Grande do Norte. Vel illum qui dolorem eum fugiat quo voluptas nulla pariatur. At vero eos et accusamus et iusto odio dignissimos ducimus.
+                  <strong>Locais de desova no Brasil:</strong> Litoral norte da Bahia, Sergipe e litoral sul do Rio Grande do Norte (região de Pipa).
                 </p>
                 <p className="text-foreground/80 leading-relaxed">
-                  <strong>Temporada reprodutiva:</strong> No continente, de setembro a abril; nas ilhas oceânicas, de dezembro a junho. Et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi.
+                  <strong>Temporada reprodutiva:</strong> No continente, de setembro a abril; nas ilhas oceânicas, de dezembro a junho.
                 </p>
                 <p className="text-foreground/80 leading-relaxed">
-                  <strong>Ciclo reprodutivo:</strong> Uma única fêmea pode realizar de três a seis posturas por temporada, cada uma com 100 a 150 ovos. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio.
+                  <strong>Ciclo reprodutivo:</strong> Uma única fêmea pode realizar de três a seis posturas por temporada, cada uma com 100 a 150 ovos. Após esse período, ela descansa por dois a três anos antes de voltar a reproduzir.
                 </p>
                 <p className="text-foreground/80 leading-relaxed">
-                  <strong>Construção do ninho:</strong> As fêmeas saem do mar à noite, procurando praias com areia fofa. Cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est.
+                  <strong>Construção do ninho:</strong> As fêmeas saem do mar à noite, procurando praias com areia fofa e livre de obstáculos. Escavam com as nadadeiras traseiras uma cova profunda, depositam os ovos e os cobrem cuidadosamente antes de retornar ao oceano.
                 </p>
                 <p className="text-foreground/80 leading-relaxed">
-                  <strong>Incubação:</strong> Leva cerca de 60 dias. A temperatura da areia é determinante para o sexo dos filhotes. Omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet.
+                  <strong>Incubação:</strong> Leva cerca de 60 dias. A temperatura da areia é determinante para o sexo dos filhotes: temperaturas mais altas produzem mais fêmeas, e mais baixas, mais machos.
                 </p>
                 <p className="text-foreground/80 leading-relaxed">
-                  <strong>Risco inicial:</strong> Ao emergirem, os filhotes se orientam pela luminosidade natural, mas luzes artificiais podem desorientá-los. Ut et voluptates repudiandae sint et molestiae non recusandae.
+                  <strong>Risco inicial:</strong> Ao emergirem, os filhotes se orientam pela luminosidade natural para alcançar o mar, mas luzes artificiais podem desorientá-los e aumentar a mortalidade.
                 </p>
               </CardContent>
             </Card>
@@ -246,13 +246,13 @@ const TartarugaDePente = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="space-y-4">
                     <p className="text-foreground/80 leading-relaxed">
-                      <strong>Pesca incidental:</strong> Captura acidental em redes de emalhe, espinhéis e arrasto. Omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis.
+                      <strong>Pesca incidental:</strong> Captura acidental em redes de emalhe, espinhéis e arrasto para pesca de camarão. Muitas vezes, as tartarugas se afogam por não conseguirem chegar à superfície para respirar.
                     </p>
                     <p className="text-foreground/80 leading-relaxed">
-                      <strong>Perda de habitat:</strong> Destruição de recifes de coral por pesca destrutiva, poluição e mudanças climáticas. Ut et voluptates repudiandae sint et molestiae non recusandae.
+                      <strong>Perda e degradação de habitat:</strong> Destruição de recifes de coral por pesca destrutiva, poluição e mudanças climáticas.
                     </p>
                     <p className="text-foreground/80 leading-relaxed">
-                      <strong>Poluição marinha:</strong> Ingestão de plásticos e resíduos flutuantes. Itaque earum rerum hic tenetur a sapiente delectus.
+                      <strong>Poluição marinha:</strong> Ingestão de plásticos e resíduos flutuantes, que podem causar bloqueios internos e morte.
                     </p>
                   </div>
                   <div className="aspect-square bg-muted rounded-lg flex items-center justify-center overflow-hidden">
@@ -264,10 +264,10 @@ const TartarugaDePente = () => {
                   </div>
                 </div>
                 <p className="text-foreground/80 leading-relaxed">
-                  <strong>Histórico de exploração:</strong> Durante décadas, foi a espécie mais caçada para a indústria de artesanato devido ao valor do "casco de tartaruga". Ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+                  <strong>Histórico de exploração:</strong> Durante décadas, foi a espécie mais caçada para a indústria de artesanato devido ao valor do "casco de tartaruga".
                 </p>
                 <p className="text-foreground/80 leading-relaxed">
-                  <strong>Mudanças climáticas:</strong> Alterações na temperatura e elevação do nível do mar afetam a proporção de sexos. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+                  <strong>Mudanças climáticas:</strong> Alterações na temperatura e elevação do nível do mar afetam a proporção de sexos e a viabilidade dos ninhos, além de provocar erosão das praias.
                 </p>
               </CardContent>
             </Card>
@@ -278,7 +278,7 @@ const TartarugaDePente = () => {
               </CardHeader>
               <CardContent className="space-y-4">
                 <p className="text-foreground/80 leading-relaxed">
-                  <strong>Projetos ativos:</strong> O Projeto TAMAR-ICMBio atua há mais de 40 anos na proteção de ninhos, marcação e monitoramento. Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                  <strong>Projetos ativos:</strong> O Projeto TAMAR-ICMBio atua há mais de 40 anos na proteção de ninhos, marcação e monitoramento de indivíduos, além de ações de educação ambiental.
                 </p>
                 <p className="text-foreground/80 leading-relaxed">
                   <strong>Áreas protegidas relevantes:</strong> Atol das Rocas, Fernando de Noronha, Parque Nacional Marinho de Abrolhos. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores.
