@@ -281,13 +281,13 @@ const TartarugaDePente = () => {
                   <strong>Projetos ativos:</strong> O Projeto TAMAR-ICMBio atua há mais de 40 anos na proteção de ninhos, marcação e monitoramento de indivíduos, além de ações de educação ambiental.
                 </p>
                 <p className="text-foreground/80 leading-relaxed">
-                  <strong>Áreas protegidas relevantes:</strong> Atol das Rocas, Fernando de Noronha, Parque Nacional Marinho de Abrolhos. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores.
+                  <strong>Áreas protegidas relevantes:</strong> Atol das Rocas (RN), Fernando de Noronha (PE), Parque Nacional Marinho de Abrolhos (BA), Reserva Biológica de Comboios (ES), entre outras.
                 </p>
                 <p className="text-foreground/80 leading-relaxed">
-                  <strong>Medidas de manejo:</strong> Inclusão de dispositivos redutores de captura (TEDs), fiscalização contra comércio ilegal. Eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.
+                  <strong>Medidas de manejo:</strong> Inclusão de dispositivos redutores de captura de tartarugas (TEDs) nas redes de arrasto, fiscalização contra o comércio ilegal e preservação de áreas de recifes.
                 </p>
                 <p className="text-foreground/80 leading-relaxed">
-                  <strong>Educação e conscientização:</strong> Trabalho direto com comunidades pesqueiras e programas de turismo sustentável. Consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam.
+                  <strong>Educação e conscientização:</strong> Trabalho direto com comunidades pesqueiras e programas de turismo sustentável para geração de renda alternativa.
                 </p>
               </CardContent>
             </Card>
@@ -298,7 +298,7 @@ const TartarugaDePente = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-foreground/80 leading-relaxed">
-                  A tartaruga-de-pente é uma das joias vivas dos oceanos tropicais, reconhecida mundialmente por seu casco de beleza única e por sua ligação vital com a saúde dos recifes de coral. Aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.
+                  A tartaruga-de-pente (Eretmochelys imbricata) é uma das joias vivas dos oceanos tropicais, reconhecida mundialmente por seu casco de beleza única e por sua ligação vital com a saúde dos recifes de coral. Especialista na alimentação de esponjas marinhas, ela desempenha um papel ecológico insubstituível na manutenção do equilíbrio e da diversidade marinha. No Brasil, suas áreas mais importantes de ocorrência incluem o Atol das Rocas, Fernando de Noronha e o litoral da Bahia e Sergipe, onde também realiza a desova. Apesar de sua importância ecológica e cultural, a espécie está criticamente ameaçada de extinção, vítima da pesca incidental, destruição de habitat, poluição e de um histórico de exploração comercial. Projetos como o TAMAR-ICMBio têm sido essenciais para sua proteção, mas a recuperação plena depende de esforços contínuos, integrando ciência, fiscalização, educação ambiental e cooperação internacional para garantir que essa espécie milenar continue a nadar livremente nos mares por muitas gerações.
                 </p>
               </CardContent>
             </Card>

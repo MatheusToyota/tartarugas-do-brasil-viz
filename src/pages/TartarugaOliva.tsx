@@ -121,10 +121,10 @@ const TartarugaOliva = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="space-y-4">
                     <p className="text-foreground/80 leading-relaxed">
-                      <strong>Tamanho compacto:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                      <strong>Tamanho e peso:</strong> Adultos medem entre 60 e 75 cm de comprimento de carapaça e pesam de 35 a 50 kg.
                     </p>
                     <p className="text-foreground/80 leading-relaxed">
-                      <strong>Coloração olivácea:</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                      <strong>Carapaça:</strong> Oval, mais larga que a da maioria das outras espécies, de cor oliva ou cinza-esverdeada, com plastrão amarelado.
                     </p>
                   </div>
                   <div className="aspect-square bg-muted rounded-lg flex items-center justify-center">
@@ -136,7 +136,7 @@ const TartarugaOliva = () => {
                   </div>
                 </div>
                 <p className="text-foreground/80 leading-relaxed">
-                  Sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+                  <strong>Cabeça:</strong> Relativamente pequena em relação ao corpo, adaptada para alimentação variada. <strong>Nadadeiras:</strong> Curtas e fortes, permitindo boa agilidade tanto no mar quanto na escavação dos ninhos. <strong>Longevidade:</strong> Pode viver mais de 50 anos, embora sua maturidade sexual seja alcançada entre 12 e 15 anos.
                 </p>
               </CardContent>
             </Card>
@@ -154,10 +154,10 @@ const TartarugaOliva = () => {
                   />
                 </div>
                 <p className="text-foreground/80 leading-relaxed">
-                  <strong>Distribuição global:</strong> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate.
+                  <strong>Ocorrência global:</strong> Encontrada em mares tropicais e subtropicais do Oceano Atlântico, Pacífico e Índico.
                 </p>
                 <p className="text-foreground/80 leading-relaxed">
-                  <strong>No Brasil:</strong> Similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.
+                  <strong>No Brasil:</strong> Registrada desde o Maranhão até o Rio Grande do Sul, com destaque para áreas de desova no litoral de Sergipe e norte da Bahia. <strong>Migração:</strong> Fêmeas monitoradas em Sergipe realizaram deslocamentos costeiros desde o Espírito Santo até o Pará, além de migrações para regiões equatoriais do Atlântico.
                 </p>
               </CardContent>
             </Card>
@@ -170,7 +170,7 @@ const TartarugaOliva = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
                     <p className="text-foreground/80 leading-relaxed">
-                      <strong>Dieta onívora:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                      <strong>Dieta onívora:</strong> A tartaruga-de-oliva é considerada onívora, explorando diferentes níveis tróficos ao longo da vida. Juvenis: Alimentam-se de pequenos invertebrados pelágicos, incluindo medusas e crustáceos. Adultos: Consomem uma grande variedade de presas como moluscos, crustáceos, peixes, salpas e algas. Importância ecológica: Contribui para o equilíbrio das populações de organismos marinhos e participa da ciclagem de nutrientes entre os ambientes oceânicos e costeiros.
                     </p>
                   </div>
                   <div className="aspect-square bg-muted rounded-lg flex items-center justify-center">
@@ -197,7 +197,7 @@ const TartarugaOliva = () => {
                   />
                 </div>
                 <p className="text-foreground/80 leading-relaxed">
-                  <strong>Arribada:</strong> Conhecido por suas desovas sincronizadas em massa. Vel illum qui dolorem eum fugiat quo voluptas nulla pariatur. At vero eos et accusamus et iusto odio dignissimos.
+                  <strong>Áreas de desova no Brasil:</strong> Principalmente no litoral de Sergipe (considerada a maior área reprodutiva da espécie no Atlântico Sul) e norte da Bahia. <strong>Temporada:</strong> De setembro a março, com pico entre novembro e janeiro. <strong>Ciclo reprodutivo:</strong> A fêmea pode desovar de 2 a 5 vezes por temporada, com intervalos de cerca de 15 a 30 dias entre posturas. Ninhos contêm de 80 a 120 ovos, incubados por aproximadamente 50 dias. Arribadas: Fenômeno observado em algumas populações, mas no Brasil a maioria das posturas é solitária.
                 </p>
               </CardContent>
             </Card>
@@ -210,7 +210,7 @@ const TartarugaOliva = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
                     <p className="text-foreground/80 leading-relaxed">
-                      <strong>Pesca incidental:</strong> Omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis.
+                      <strong>Pesca incidental:</strong> Captura acidental em redes de emalhe, espinhéis e arrasto, com alta mortalidade devido ao afogamento. <strong>Perda de habitat:</strong> Urbanização e ocupação irregular das praias de desova. <strong>Poluição:</strong> Ingestão de resíduos plásticos, captura em redes fantasmas e contaminação por poluentes químicos. <strong>Mudanças climáticas:</strong> Alterações de temperatura que afetam a proporção sexual e a viabilidade dos ninhos. <strong>Consumo ilegal:</strong> Coleta e venda clandestina de ovos, especialmente em comunidades costeiras.
                     </p>
                   </div>
                   <div className="aspect-square bg-muted rounded-lg flex items-center justify-center">
@@ -230,7 +230,7 @@ const TartarugaOliva = () => {
               </CardHeader>
               <CardContent className="space-y-4">
                 <p className="text-foreground/80 leading-relaxed">
-                  Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur.
+                  <strong>Projeto TAMAR-ICMBio:</strong> Atua fortemente no litoral de Sergipe e Bahia, monitorando praias, protegendo ninhos e soltando filhotes ao mar. <strong>Áreas protegidas:</strong> Reserva Biológica de Santa Isabel (SE), Parque Nacional Marinho de Abrolhos (BA) e áreas de proteção ambiental no litoral nordestino. <strong>Medidas de manejo:</strong> Implantação de TEDs nas redes de pesca de arrasto, fiscalização costeira, conscientização de comunidades e combate ao comércio ilegal de ovos.
                 </p>
               </CardContent>
             </Card>
@@ -241,7 +241,7 @@ const TartarugaOliva = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-foreground/80 leading-relaxed">
-                  Sed ut non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.
+                  A tartaruga-de-oliva (Lepidochelys olivacea) é a menor entre as tartarugas marinhas, mas sua importância ecológica e cultural é enorme. Conhecida por seu casco de cor oliva e por eventos impressionantes de desova coletiva, é um elo fundamental no equilíbrio dos ecossistemas marinhos tropicais. No Brasil, tem sua maior concentração reprodutiva no litoral de Sergipe, tornando a região estratégica para sua conservação. Apesar de protegida por lei, enfrenta ameaças como pesca incidental, poluição e coleta ilegal de ovos. O trabalho contínuo de monitoramento, proteção de praias e conscientização comunitária é essencial para assegurar que essa pequena gigante dos mares continue a cumprir seu papel ecológico e a inspirar admiração nas gerações futuras.
                 </p>
               </CardContent>
             </Card>

@@ -120,10 +120,10 @@ const TartarugaDeCouro = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="space-y-4">
                     <p className="text-foreground/80 leading-relaxed">
-                      <strong>Tamanho gigantesco:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                      <strong>Tamanho e peso:</strong> Adultos podem medir entre 1,5 e 2 metros de comprimento de carapaça e pesar de 400 a 700 kg, podendo chegar a 900 kg em exemplares maiores.
                     </p>
                     <p className="text-foreground/80 leading-relaxed">
-                      <strong>Carapaça coriácea:</strong> Não possui casco rígido, mas sim uma carapaça coriácea. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.
+                      <strong>Carapaça:</strong> Diferente das tartarugas comuns, não possui escamas rígidas; sua carapaça é formada por uma camada grossa de tecido fibroso e cartilaginoso, com nervuras longitudinais visíveis. Cor varia do preto ao cinza escuro com manchas esbranquiçadas.
                     </p>
                   </div>
                   <div className="aspect-square bg-muted rounded-lg flex items-center justify-center overflow-hidden">
@@ -135,7 +135,7 @@ const TartarugaDeCouro = () => {
                   </div>
                 </div>
                 <p className="text-foreground/80 leading-relaxed">
-                  <strong>Adaptações para águas profundas:</strong> Sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+                  <strong>Cabeça e nadadeiras:</strong> Grande e robusta, com bico forte, adaptada para capturar presas gelatinosas. Nadadeiras longas e poderosas, com bordas dentadas que facilitam o nado em mar aberto. <strong>Longevidade:</strong> Pode viver mais de 50 anos; a maturidade sexual ocorre por volta dos 12 a 20 anos.
                 </p>
               </CardContent>
             </Card>
@@ -153,10 +153,10 @@ const TartarugaDeCouro = () => {
                   />
                 </div>
                 <p className="text-foreground/80 leading-relaxed">
-                  <strong>Distribuição cosmopolita:</strong> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate.
+                  <strong>Ocorrência global:</strong> Encontrada em todos os oceanos tropicais e temperados do mundo, incluindo o Atlântico, Pacífico e Índico, sendo a tartaruga marinha com a maior área de distribuição.
                 </p>
                 <p className="text-foreground/80 leading-relaxed">
-                  <strong>Migrações transoceânicas:</strong> Similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.
+                  <strong>No Brasil e migração:</strong> Presente em todo o litoral, com áreas importantes de desova no Espírito Santo, Bahia e Ceará. Realiza longas migrações oceânicas, percorrendo milhares de quilômetros entre áreas de alimentação e reprodução.
                 </p>
               </CardContent>
             </Card>
@@ -169,7 +169,7 @@ const TartarugaDeCouro = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
                     <p className="text-foreground/80 leading-relaxed">
-                      <strong>Especialista em águas-vivas:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                      <strong>Alimentação especializada:</strong> A tartaruga-de-couro é especializada em se alimentar de medusas e outros organismos gelatinosos, incluindo águas-vivas, salpas e caravelas.
                     </p>
                   </div>
                   <div className="aspect-square bg-muted rounded-lg flex items-center justify-center overflow-hidden">
@@ -181,7 +181,7 @@ const TartarugaDeCouro = () => {
                   </div>
                 </div>
                 <p className="text-foreground/80 leading-relaxed">
-                  <strong>Controle de populações gelatinosas:</strong> Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+                  <strong>Papel ecológico:</strong> Esse hábito alimentar ajuda a controlar populações de medusas, que em excesso podem desequilibrar ecossistemas marinhos. Contribui para a ciclagem de nutrientes ao se deslocar entre diferentes áreas oceânicas.
                 </p>
               </CardContent>
             </Card>
@@ -199,7 +199,7 @@ const TartarugaDeCouro = () => {
                   />
                 </div>
                 <p className="text-foreground/80 leading-relaxed">
-                  Vel illum qui dolorem eum fugiat quo voluptas nulla pariatur. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.
+                  <strong>Áreas de desova no Brasil:</strong> Principalmente no litoral do Espírito Santo, Bahia e Ceará. <strong>Temporada:</strong> De outubro a março, com picos em novembro e dezembro. <strong>Ciclo reprodutivo:</strong> Fêmeas podem desovar de 5 a 7 vezes por temporada, com intervalos de aproximadamente 12 a 15 dias. Ninhos contêm cerca de 80 a 90 ovos, incubados por cerca de 60 dias. A temperatura da areia influencia o sexo dos filhotes, assim como nas outras tartarugas marinhas.
                 </p>
               </CardContent>
             </Card>
@@ -212,10 +212,10 @@ const TartarugaDeCouro = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
                     <p className="text-foreground/80 leading-relaxed">
-                      <strong>Pesca incidental:</strong> Omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis.
+                      <strong>Pesca incidental:</strong> Captura acidental em redes de pesca de emalhe, espinheis, e longlines, muitas vezes fatal. <strong>Perda de habitat:</strong> Destruição e ocupação das praias de desova.
                     </p>
                     <p className="text-foreground/80 leading-relaxed">
-                      <strong>Ingestão de plásticos:</strong> Confunde sacos plásticos com águas-vivas. Ut et voluptates repudiandae sint et molestiae non recusandae.
+                      <strong>Poluição:</strong> Ingestão de lixo plástico, especialmente sacolas plásticas, confundidas com medusas, além de contaminação química. <strong>Mudanças climáticas:</strong> Impactos na temperatura da areia e no nível do mar, afetando a viabilidade dos ninhos e o equilíbrio sexual dos filhotes.
                     </p>
                   </div>
                   <div className="aspect-video bg-muted rounded-lg flex items-center justify-center mb-4 overflow-hidden">
@@ -235,7 +235,7 @@ const TartarugaDeCouro = () => {
               </CardHeader>
               <CardContent className="space-y-4">
                 <p className="text-foreground/80 leading-relaxed">
-                  Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+                  <strong>Projetos de conservação:</strong> O Projeto TAMAR-ICMBio atua na proteção da tartaruga-de-couro no Brasil, monitorando praias, protegendo ninhos e soltando filhotes. <strong>Áreas protegidas:</strong> Reserva Biológica de Comboios (ES), Parque Nacional Marinho de Abrolhos (BA) e outras unidades de conservação costeiras. <strong>Medidas de manejo:</strong> Implantação de dispositivos para reduzir captura em redes (TEDs), fiscalização e educação ambiental. Uso de telemetria e satélites para estudar rotas migratórias e identificar áreas críticas.
                 </p>
               </CardContent>
             </Card>
