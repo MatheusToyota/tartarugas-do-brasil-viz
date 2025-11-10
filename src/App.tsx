@@ -13,6 +13,7 @@ import TartarugaOliva from "./pages/TartarugaOliva";
 import TartarugaDeCouro from "./pages/TartarugaDeCouro";
 import Conservacao from "./pages/Conservacao";
 import Sobre from "./pages/Sobre";
+import Comentarios from "./pages/Comentarios";
 
 const queryClient = new QueryClient();
 
@@ -33,6 +34,7 @@ const App = () => (
             <Route path="/tartaruga-de-couro" element={<TartarugaDeCouro />} />
             <Route path="/conservacao" element={<Conservacao />} />
             <Route path="/sobre" element={<Sobre />} />
+            <Route path="/comentarios" element={<Comentarios />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
