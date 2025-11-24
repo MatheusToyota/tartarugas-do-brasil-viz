@@ -20,6 +20,7 @@ export type Database = {
           author_name: string
           content: string
           created_at: string
+          email_hash: string
           id: string
           updated_at: string
         }
@@ -28,6 +29,7 @@ export type Database = {
           author_name: string
           content: string
           created_at?: string
+          email_hash: string
           id?: string
           updated_at?: string
         }
@@ -36,6 +38,7 @@ export type Database = {
           author_name?: string
           content?: string
           created_at?: string
+          email_hash?: string
           id?: string
           updated_at?: string
         }
@@ -46,7 +49,15 @@ export type Database = {
       [_ in never]: never
     }
     Functions: {
-      [_ in never]: never
+      hash_email: { Args: { email: string }; Returns: string }
+      submit_comment: {
+        Args: {
+          p_author_email: string
+          p_author_name: string
+          p_content: string
+        }
+        Returns: Json
+      }
     }
     Enums: {
       [_ in never]: never
