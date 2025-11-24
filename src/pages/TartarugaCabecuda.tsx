@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { ArrowLeft, MapPin, Calendar, Shield } from "lucide-react";
 import { useNavigate } from "react-router-dom";
+import { CommentsSection } from "@/components/CommentsSection";
 
 // Import images
 import cabecudaImg1 from "@/assets/img/Tartaruga-Cabecuda/closeup-shot-beautiful-turtle-swimming-sea.jpg";
@@ -297,6 +298,8 @@ proteção ambiental no litoral da Bahia e Sergipe, e o Parque Nacional Marinho 
               </CardContent>
             </Card>
           </div> {/* Fim do .space-y-8 */}
+
+          <CommentsSection />
         </div> {/* Fim do .max-w-4xl mx-auto */}
       </div> {/* Fim do .container */}
     </main>
