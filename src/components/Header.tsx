@@ -98,13 +98,6 @@ const Header = () => {
             >
               Sobre
             </Button>
-            <Button
-              variant="ghost"
-              className="text-primary-foreground hover:bg-primary-light/20 transition-smooth"
-              onClick={() => navigate("/comentarios")}
-            >
-              Comentários
-            </Button>
           </nav>
 
           {/* Mobile Menu */}
@@ -177,17 +170,6 @@ const Header = () => {
                   }}
                 >
                   Sobre
-                </Button>
-                
-                <Button
-                  variant="ghost"
-                  className="justify-start"
-                  onClick={() => {
-                    navigate("/comentarios");
-                    setMobileMenuOpen(false);
-                  }}
-                >
-                  Comentários
                 </Button>
               </nav>
             </SheetContent>

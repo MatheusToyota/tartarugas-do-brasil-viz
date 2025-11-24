@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { ArrowLeft, MapPin, Calendar, Shield } from "lucide-react";
 import { useNavigate } from "react-router-dom";
+import { CommentsSection } from "@/components/CommentsSection";
 
 // Import images
 import verdeImg1 from "@/assets/img/Tartaruga-Verde/Tartaruga-Verde(5).jpg";
@@ -270,6 +271,8 @@ const TartarugaVerde = () => {
               </CardContent>
             </Card>
           </div>
+
+          <CommentsSection />
         </div>
       </div>
     </main>

@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { ArrowLeft, MapPin, Calendar, Shield } from "lucide-react";
 import { useNavigate } from "react-router-dom";
+import { CommentsSection } from "@/components/CommentsSection";
 // Importação das imagens
 import penteImg1 from "@/assets/img/Tartaruga-de-Pente/Eretmochelys_imbricata_485863712.jpg";
 import penteImg2 from "@/assets/img/Tartaruga-de-Pente/Eretmochelys_imbricata_519872831.jpg";
@@ -303,10 +304,13 @@ const TartarugaDePente = () => {
               </CardContent>
             </Card>
           </div>
+
+          <CommentsSection />
         </div>
       </div>
     </main>
   );
 };
+
 
 export default TartarugaDePente;

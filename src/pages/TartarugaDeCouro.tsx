@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { ArrowLeft, MapPin, Calendar, Shield } from "lucide-react";
 import { useNavigate } from "react-router-dom";
+import { CommentsSection } from "@/components/CommentsSection";
 // Importação das imagens
 import couroImg1 from "@/assets/img/Tartaruga-de-Couro/640px-Close_up_of_dermochelys_coriacea_leatherback_turtle.jpg";
 import couroImg2 from "@/assets/img/Tartaruga-de-Couro/Leatherback_Turtle_eggs_hatching_at_Eagle_Beach,_Aruba_(cropped).jpg";
@@ -251,6 +252,8 @@ const TartarugaDeCouro = () => {
               </CardContent>
             </Card>
           </div>
+
+          <CommentsSection />
         </div>
       </div>
     </main>

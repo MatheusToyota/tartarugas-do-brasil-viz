@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { ArrowLeft, MapPin, Calendar, Shield } from "lucide-react";
 import { useNavigate } from "react-router-dom";
+import { CommentsSection } from "@/components/CommentsSection";
 
 // Import images
 import olivaImg1 from "@/assets/img/Tartaruga-Olivia/Tartaruga-Olivia(1).jpg";
@@ -246,6 +247,8 @@ const TartarugaOliva = () => {
               </CardContent>
             </Card>
           </div>
+
+          <CommentsSection />
         </div>
       </div>
     </main>
