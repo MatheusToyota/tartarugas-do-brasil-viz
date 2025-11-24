@@ -11,7 +11,6 @@ import { z } from "zod";
 interface Comment {
   id: string;
   author_name: string;
-  author_email: string;
   content: string;
   created_at: string;
 }
@@ -40,13 +39,12 @@ const Comentarios = () => {
     try {
       const { data, error } = await supabase
         .from('comments')
-        .select('*')
+        .select('id, author_name, content, created_at')
         .order('created_at', { ascending: false });
 
       if (error) throw error;
       setComments(data || []);
     } catch (error) {
-      console.error('Erro ao carregar comentários:', error);
       toast({
         title: "Erro ao carregar comentários",
         description: "Não foi possível carregar os comentários. Tente novamente.",
@@ -54,26 +52,6 @@ const Comentarios = () => {
       });
     } finally {
       setIsLoading(false);
-    }
-  };
-
-  const checkRateLimit = async (email: string): Promise<boolean> => {
-    try {
-      const oneDayAgo = new Date();
-      oneDayAgo.setDate(oneDayAgo.getDate() - 1);
-
-      const { data, error } = await supabase
-        .from('comments')
-        .select('id')
-        .eq('author_email', email.toLowerCase())
-        .gte('created_at', oneDayAgo.toISOString())
-        .limit(1);
-
-      if (error) throw error;
-      return (data?.length || 0) > 0;
-    } catch (error) {
-      console.error('Erro ao verificar limite:', error);
-      return false;
     }
   };
 
@@ -92,29 +70,26 @@ const Comentarios = () => {
         content: newComment
       });
 
-      // Check rate limit
-      const hasRecentComment = await checkRateLimit(validatedData.author_email);
-      
-      if (hasRecentComment) {
+      // Call secure server-side function that handles rate limiting and insertion
+      const { data, error } = await supabase.rpc('submit_comment', {
+        p_author_name: validatedData.author_name,
+        p_author_email: validatedData.author_email.toLowerCase(),
+        p_content: validatedData.content
+      });
+
+      if (error) throw error;
+
+      // Check for rate limit error from server
+      const result = data as { error?: string; success?: boolean; id?: string };
+      if (result?.error) {
         toast({
-          title: "Limite atingido",
-          description: "Você só pode enviar 1 comentário por dia. Tente novamente amanhã.",
+          title: "Erro",
+          description: result.error,
           variant: "destructive"
         });
         setIsSubmitting(false);
         return;
       }
-
-      // Insert comment
-      const { error } = await supabase
-        .from('comments')
-        .insert({
-          author_name: validatedData.author_name,
-          author_email: validatedData.author_email.toLowerCase(),
-          content: validatedData.content
-        });
-
-      if (error) throw error;
 
       toast({
         title: "Comentário publicado!",
@@ -135,7 +110,6 @@ const Comentarios = () => {
           variant: "destructive"
         });
       } else {
-        console.error('Erro ao enviar comentário:', error);
         toast({
           title: "Erro ao enviar comentário",
           description: "Não foi possível enviar seu comentário. Tente novamente.",
